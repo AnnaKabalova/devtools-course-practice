@@ -1,0 +1,10 @@
+# Target labels
+ triangle
+ Library
+# Source files and their labels
+/home/altmetal/с++ projects/devtools-course-practice-1/modules/triangle/src/triangle.cpp
+ triangle
+ Library
+/home/altmetal/с++ projects/devtools-course-practice-1/modules/triangle/include/triangle.h
+ triangle
+ Library

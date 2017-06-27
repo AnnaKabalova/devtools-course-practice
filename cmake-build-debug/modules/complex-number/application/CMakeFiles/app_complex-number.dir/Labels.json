@@ -1,0 +1,16 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/home/altmetal/с++ projects/devtools-course-practice-1/modules/complex-number/application/complex-number.cpp",
+			"labels" : [ "complex-number", "Application" ]
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "complex-number", "Application" ],
+		"name" : "app_complex-number"
+	}
+}

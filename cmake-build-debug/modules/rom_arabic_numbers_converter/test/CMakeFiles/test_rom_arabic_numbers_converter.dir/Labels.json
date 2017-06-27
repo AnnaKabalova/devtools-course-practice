@@ -1,0 +1,26 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/home/altmetal/с++ projects/devtools-course-practice-1/modules/rom_arabic_numbers_converter/test/arabic_to_rom_test.cpp",
+			"labels" : [ "rom_arabic_numbers_converter", "Test" ]
+		},
+		
+		{
+			"file" : "/home/altmetal/с++ projects/devtools-course-practice-1/modules/rom_arabic_numbers_converter/test/rom_to_arabic_test.cpp",
+			"labels" : [ "rom_arabic_numbers_converter", "Test" ]
+		},
+		
+		{
+			"file" : "/home/altmetal/с++ projects/devtools-course-practice-1/modules/rom_arabic_numbers_converter/test/test_main.cpp",
+			"labels" : [ "rom_arabic_numbers_converter", "Test" ]
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "rom_arabic_numbers_converter", "Test" ],
+		"name" : "test_rom_arabic_numbers_converter"
+	}
+}

@@ -1,0 +1,7 @@
+# Target labels
+ fraction
+ Application
+# Source files and their labels
+/home/altmetal/с++ projects/devtools-course-practice-1/modules/fraction/application/fractioncalc.cpp
+ fraction
+ Application

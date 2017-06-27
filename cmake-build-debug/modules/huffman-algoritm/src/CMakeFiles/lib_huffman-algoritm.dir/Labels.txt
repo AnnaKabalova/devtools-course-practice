@@ -1,0 +1,10 @@
+# Target labels
+ huffman-algoritm
+ Library
+# Source files and their labels
+/home/altmetal/с++ projects/devtools-course-practice-1/modules/huffman-algoritm/src/huffman.cpp
+ huffman-algoritm
+ Library
+/home/altmetal/с++ projects/devtools-course-practice-1/modules/huffman-algoritm/include/huffman.h
+ huffman-algoritm
+ Library

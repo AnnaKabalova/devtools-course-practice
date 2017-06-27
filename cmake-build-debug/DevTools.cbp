@@ -1,0 +1,2497 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="DevTools"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\3rdparty\;CMake Files\3rdparty\gtest\;CMake Files\modules\;CMake Files\modules\Sort\;CMake Files\modules\Sort\src\;CMake Files\modules\Sort\test\;CMake Files\modules\area-of-three-dimensional-figures\;CMake Files\modules\area-of-three-dimensional-figures\src\;CMake Files\modules\area-of-three-dimensional-figures\test\;CMake Files\modules\arithmetic-parser\;CMake Files\modules\arithmetic-parser\src\;CMake Files\modules\arithmetic-parser\test\;CMake Files\modules\bit-array\;CMake Files\modules\bit-array\src\;CMake Files\modules\bit-array\test\;CMake Files\modules\color-spaces\;CMake Files\modules\color-spaces\src\;CMake Files\modules\color-spaces\test\;CMake Files\modules\complex-number\;CMake Files\modules\complex-number\src\;CMake Files\modules\complex-number\test\;CMake Files\modules\complex-number\application\;CMake Files\modules\credit-calculator\;CMake Files\modules\credit-calculator\src\;CMake Files\modules\credit-calculator\test\;CMake Files\modules\fraction\;CMake Files\modules\fraction\src\;CMake Files\modules\fraction\test\;CMake Files\modules\fraction\application\;CMake Files\modules\huffman-algoritm\;CMake Files\modules\huffman-algoritm\src\;CMake Files\modules\huffman-algoritm\test\;CMake Files\modules\length_converter\;CMake Files\modules\length_converter\src\;CMake Files\modules\length_converter\test\;CMake Files\modules\line_plane_intersec\;CMake Files\modules\line_plane_intersec\src\;CMake Files\modules\line_plane_intersec\test\;CMake Files\modules\quadratic-equation\;CMake Files\modules\quadratic-equation\src\;CMake Files\modules\quadratic-equation\test\;CMake Files\modules\rom_arabic_numbers_converter\;CMake Files\modules\rom_arabic_numbers_converter\src\;CMake Files\modules\rom_arabic_numbers_converter\test\;CMake Files\modules\search-tree\;CMake Files\modules\search-tree\src\;CMake Files\modules\search-tree\test\;CMake Files\modules\search-tree\application\;CMake Files\modules\stack\;CMake Files\modules\stack\test\;CMake Files\modules\triangle\;CMake Files\modules\triangle\src\;CMake Files\modules\triangle\test\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option working_dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cpplint">
+				<Option working_dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 cpplint"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest">
+				<Option output="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/lib/libgtest.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/3rdparty/gtest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/3rdparty"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/3rdparty/gtest/Makefile&quot;  VERBOSE=1 gtest"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/3rdparty/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/3rdparty/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/3rdparty/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest/fast">
+				<Option output="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/lib/libgtest.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/3rdparty/gtest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/3rdparty"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/3rdparty/gtest/Makefile&quot;  VERBOSE=1 gtest/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/3rdparty/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/3rdparty/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/3rdparty/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lib_Sort">
+				<Option output="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/lib/libSort.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/modules/Sort/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/3rdparty"/>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/modules/Sort/."/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/Sort/src/Makefile&quot;  VERBOSE=1 lib_Sort"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/Sort/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/Sort/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/Sort/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lib_Sort/fast">
+				<Option output="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/lib/libSort.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/modules/Sort/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/3rdparty"/>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/modules/Sort/."/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/Sort/src/Makefile&quot;  VERBOSE=1 lib_Sort/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/Sort/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/Sort/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/Sort/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_Sort">
+				<Option output="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/bin/test_Sort" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/3rdparty"/>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/modules/Sort/."/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/Sort/test/Makefile&quot;  VERBOSE=1 test_Sort"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/Sort/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/Sort/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/Sort/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_Sort/fast">
+				<Option output="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/bin/test_Sort" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/3rdparty"/>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/modules/Sort/."/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/Sort/test/Makefile&quot;  VERBOSE=1 test_Sort/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/Sort/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/Sort/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/Sort/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lib_area-of-three-dimensional-figures">
+				<Option output="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/lib/libarea-of-three-dimensional-figures.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/modules/area-of-three-dimensional-figures/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/3rdparty"/>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/modules/area-of-three-dimensional-figures/."/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/area-of-three-dimensional-figures/src/Makefile&quot;  VERBOSE=1 lib_area-of-three-dimensional-figures"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/area-of-three-dimensional-figures/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/area-of-three-dimensional-figures/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/area-of-three-dimensional-figures/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lib_area-of-three-dimensional-figures/fast">
+				<Option output="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/lib/libarea-of-three-dimensional-figures.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/modules/area-of-three-dimensional-figures/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/3rdparty"/>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/modules/area-of-three-dimensional-figures/."/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/area-of-three-dimensional-figures/src/Makefile&quot;  VERBOSE=1 lib_area-of-three-dimensional-figures/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/area-of-three-dimensional-figures/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/area-of-three-dimensional-figures/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/area-of-three-dimensional-figures/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_area-of-three-dimensional-figures">
+				<Option output="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/bin/test_area-of-three-dimensional-figures" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/3rdparty"/>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/modules/area-of-three-dimensional-figures/."/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/area-of-three-dimensional-figures/test/Makefile&quot;  VERBOSE=1 test_area-of-three-dimensional-figures"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/area-of-three-dimensional-figures/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/area-of-three-dimensional-figures/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/area-of-three-dimensional-figures/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_area-of-three-dimensional-figures/fast">
+				<Option output="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/bin/test_area-of-three-dimensional-figures" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/3rdparty"/>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/modules/area-of-three-dimensional-figures/."/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/area-of-three-dimensional-figures/test/Makefile&quot;  VERBOSE=1 test_area-of-three-dimensional-figures/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/area-of-three-dimensional-figures/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/area-of-three-dimensional-figures/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/area-of-three-dimensional-figures/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lib_arithmetic-parser">
+				<Option output="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/lib/libarithmetic-parser.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/modules/arithmetic-parser/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/3rdparty"/>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/modules/arithmetic-parser/."/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/arithmetic-parser/src/Makefile&quot;  VERBOSE=1 lib_arithmetic-parser"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/arithmetic-parser/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/arithmetic-parser/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/arithmetic-parser/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lib_arithmetic-parser/fast">
+				<Option output="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/lib/libarithmetic-parser.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/modules/arithmetic-parser/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/3rdparty"/>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/modules/arithmetic-parser/."/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/arithmetic-parser/src/Makefile&quot;  VERBOSE=1 lib_arithmetic-parser/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/arithmetic-parser/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/arithmetic-parser/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/arithmetic-parser/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_arithmetic-parser">
+				<Option output="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/bin/test_arithmetic-parser" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/3rdparty"/>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/modules/arithmetic-parser/."/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/arithmetic-parser/test/Makefile&quot;  VERBOSE=1 test_arithmetic-parser"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/arithmetic-parser/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/arithmetic-parser/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/arithmetic-parser/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_arithmetic-parser/fast">
+				<Option output="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/bin/test_arithmetic-parser" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/3rdparty"/>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/modules/arithmetic-parser/."/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/arithmetic-parser/test/Makefile&quot;  VERBOSE=1 test_arithmetic-parser/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/arithmetic-parser/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/arithmetic-parser/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/arithmetic-parser/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lib_bit-array">
+				<Option output="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/lib/libbit-array.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/modules/bit-array/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/3rdparty"/>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/modules/bit-array/."/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/bit-array/src/Makefile&quot;  VERBOSE=1 lib_bit-array"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/bit-array/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/bit-array/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/bit-array/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lib_bit-array/fast">
+				<Option output="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/lib/libbit-array.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/modules/bit-array/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/3rdparty"/>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/modules/bit-array/."/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/bit-array/src/Makefile&quot;  VERBOSE=1 lib_bit-array/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/bit-array/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/bit-array/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/bit-array/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_bit-array">
+				<Option output="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/bin/test_bit-array" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/3rdparty"/>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/modules/bit-array/."/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/bit-array/test/Makefile&quot;  VERBOSE=1 test_bit-array"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/bit-array/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/bit-array/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/bit-array/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_bit-array/fast">
+				<Option output="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/bin/test_bit-array" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/3rdparty"/>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/modules/bit-array/."/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/bit-array/test/Makefile&quot;  VERBOSE=1 test_bit-array/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/bit-array/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/bit-array/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/bit-array/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lib_color-spaces">
+				<Option output="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/lib/libcolor-spaces.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/modules/color-spaces/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/3rdparty"/>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/modules/color-spaces/."/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/color-spaces/src/Makefile&quot;  VERBOSE=1 lib_color-spaces"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/color-spaces/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/color-spaces/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/color-spaces/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lib_color-spaces/fast">
+				<Option output="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/lib/libcolor-spaces.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/modules/color-spaces/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/3rdparty"/>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/modules/color-spaces/."/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/color-spaces/src/Makefile&quot;  VERBOSE=1 lib_color-spaces/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/color-spaces/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/color-spaces/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/color-spaces/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_color-spaces">
+				<Option output="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/bin/test_color-spaces" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/3rdparty"/>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/modules/color-spaces/."/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/color-spaces/test/Makefile&quot;  VERBOSE=1 test_color-spaces"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/color-spaces/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/color-spaces/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/color-spaces/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_color-spaces/fast">
+				<Option output="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/bin/test_color-spaces" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/3rdparty"/>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/modules/color-spaces/."/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/color-spaces/test/Makefile&quot;  VERBOSE=1 test_color-spaces/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/color-spaces/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/color-spaces/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/color-spaces/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lib_complex-number">
+				<Option output="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/lib/libcomplex-number.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/modules/complex-number/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/3rdparty"/>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/modules/complex-number/."/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/complex-number/src/Makefile&quot;  VERBOSE=1 lib_complex-number"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/complex-number/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/complex-number/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/complex-number/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lib_complex-number/fast">
+				<Option output="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/lib/libcomplex-number.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/modules/complex-number/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/3rdparty"/>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/modules/complex-number/."/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/complex-number/src/Makefile&quot;  VERBOSE=1 lib_complex-number/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/complex-number/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/complex-number/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/complex-number/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_complex-number">
+				<Option output="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/bin/test_complex-number" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/3rdparty"/>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/modules/complex-number/."/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/complex-number/test/Makefile&quot;  VERBOSE=1 test_complex-number"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/complex-number/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/complex-number/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/complex-number/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_complex-number/fast">
+				<Option output="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/bin/test_complex-number" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/3rdparty"/>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/modules/complex-number/."/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/complex-number/test/Makefile&quot;  VERBOSE=1 test_complex-number/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/complex-number/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/complex-number/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/complex-number/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="app_complex-number">
+				<Option output="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/bin/complex-number" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/3rdparty"/>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/modules/complex-number/."/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/complex-number/application/Makefile&quot;  VERBOSE=1 app_complex-number"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/complex-number/application/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/complex-number/application/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/complex-number/application/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="app_complex-number/fast">
+				<Option output="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/bin/complex-number" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/3rdparty"/>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/modules/complex-number/."/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/complex-number/application/Makefile&quot;  VERBOSE=1 app_complex-number/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/complex-number/application/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/complex-number/application/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/complex-number/application/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lib_credit-calculator">
+				<Option output="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/lib/libcredit-calculator.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/modules/credit-calculator/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/3rdparty"/>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/modules/credit-calculator/."/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/credit-calculator/src/Makefile&quot;  VERBOSE=1 lib_credit-calculator"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/credit-calculator/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/credit-calculator/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/credit-calculator/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lib_credit-calculator/fast">
+				<Option output="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/lib/libcredit-calculator.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/modules/credit-calculator/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/3rdparty"/>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/modules/credit-calculator/."/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/credit-calculator/src/Makefile&quot;  VERBOSE=1 lib_credit-calculator/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/credit-calculator/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/credit-calculator/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/credit-calculator/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_credit-calculator">
+				<Option output="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/bin/test_credit-calculator" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/3rdparty"/>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/modules/credit-calculator/."/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/credit-calculator/test/Makefile&quot;  VERBOSE=1 test_credit-calculator"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/credit-calculator/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/credit-calculator/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/credit-calculator/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_credit-calculator/fast">
+				<Option output="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/bin/test_credit-calculator" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/3rdparty"/>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/modules/credit-calculator/."/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/credit-calculator/test/Makefile&quot;  VERBOSE=1 test_credit-calculator/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/credit-calculator/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/credit-calculator/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/credit-calculator/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lib_fraction">
+				<Option output="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/lib/libfraction.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/modules/fraction/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/3rdparty"/>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/modules/fraction/."/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/fraction/src/Makefile&quot;  VERBOSE=1 lib_fraction"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/fraction/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/fraction/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/fraction/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lib_fraction/fast">
+				<Option output="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/lib/libfraction.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/modules/fraction/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/3rdparty"/>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/modules/fraction/."/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/fraction/src/Makefile&quot;  VERBOSE=1 lib_fraction/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/fraction/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/fraction/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/fraction/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_fraction">
+				<Option output="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/bin/test_fraction" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/3rdparty"/>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/modules/fraction/."/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/fraction/test/Makefile&quot;  VERBOSE=1 test_fraction"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/fraction/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/fraction/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/fraction/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_fraction/fast">
+				<Option output="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/bin/test_fraction" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/3rdparty"/>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/modules/fraction/."/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/fraction/test/Makefile&quot;  VERBOSE=1 test_fraction/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/fraction/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/fraction/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/fraction/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="app_fraction">
+				<Option output="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/bin/fraction" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/3rdparty"/>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/modules/fraction/."/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/fraction/application/Makefile&quot;  VERBOSE=1 app_fraction"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/fraction/application/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/fraction/application/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/fraction/application/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="app_fraction/fast">
+				<Option output="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/bin/fraction" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/3rdparty"/>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/modules/fraction/."/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/fraction/application/Makefile&quot;  VERBOSE=1 app_fraction/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/fraction/application/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/fraction/application/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/fraction/application/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lib_huffman-algoritm">
+				<Option output="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/lib/libhuffman-algoritm.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/modules/huffman-algoritm/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/3rdparty"/>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/modules/huffman-algoritm/."/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/huffman-algoritm/src/Makefile&quot;  VERBOSE=1 lib_huffman-algoritm"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/huffman-algoritm/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/huffman-algoritm/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/huffman-algoritm/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lib_huffman-algoritm/fast">
+				<Option output="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/lib/libhuffman-algoritm.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/modules/huffman-algoritm/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/3rdparty"/>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/modules/huffman-algoritm/."/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/huffman-algoritm/src/Makefile&quot;  VERBOSE=1 lib_huffman-algoritm/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/huffman-algoritm/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/huffman-algoritm/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/huffman-algoritm/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_huffman-algoritm">
+				<Option output="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/bin/test_huffman-algoritm" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/3rdparty"/>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/modules/huffman-algoritm/."/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/huffman-algoritm/test/Makefile&quot;  VERBOSE=1 test_huffman-algoritm"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/huffman-algoritm/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/huffman-algoritm/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/huffman-algoritm/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_huffman-algoritm/fast">
+				<Option output="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/bin/test_huffman-algoritm" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/3rdparty"/>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/modules/huffman-algoritm/."/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/huffman-algoritm/test/Makefile&quot;  VERBOSE=1 test_huffman-algoritm/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/huffman-algoritm/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/huffman-algoritm/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/huffman-algoritm/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lib_length_converter">
+				<Option output="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/lib/liblength_converter.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/modules/length_converter/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/3rdparty"/>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/modules/length_converter/."/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/length_converter/src/Makefile&quot;  VERBOSE=1 lib_length_converter"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/length_converter/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/length_converter/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/length_converter/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lib_length_converter/fast">
+				<Option output="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/lib/liblength_converter.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/modules/length_converter/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/3rdparty"/>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/modules/length_converter/."/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/length_converter/src/Makefile&quot;  VERBOSE=1 lib_length_converter/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/length_converter/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/length_converter/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/length_converter/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_length_converter">
+				<Option output="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/bin/test_length_converter" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/3rdparty"/>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/modules/length_converter/."/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/length_converter/test/Makefile&quot;  VERBOSE=1 test_length_converter"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/length_converter/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/length_converter/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/length_converter/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_length_converter/fast">
+				<Option output="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/bin/test_length_converter" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/3rdparty"/>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/modules/length_converter/."/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/length_converter/test/Makefile&quot;  VERBOSE=1 test_length_converter/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/length_converter/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/length_converter/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/length_converter/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lib_line_plane_intersec">
+				<Option output="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/lib/libline_plane_intersec.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/modules/line_plane_intersec/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/3rdparty"/>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/modules/line_plane_intersec/."/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/line_plane_intersec/src/Makefile&quot;  VERBOSE=1 lib_line_plane_intersec"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/line_plane_intersec/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/line_plane_intersec/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/line_plane_intersec/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lib_line_plane_intersec/fast">
+				<Option output="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/lib/libline_plane_intersec.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/modules/line_plane_intersec/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/3rdparty"/>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/modules/line_plane_intersec/."/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/line_plane_intersec/src/Makefile&quot;  VERBOSE=1 lib_line_plane_intersec/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/line_plane_intersec/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/line_plane_intersec/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/line_plane_intersec/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_line_plane_intersec">
+				<Option output="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/bin/test_line_plane_intersec" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/3rdparty"/>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/modules/line_plane_intersec/."/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/line_plane_intersec/test/Makefile&quot;  VERBOSE=1 test_line_plane_intersec"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/line_plane_intersec/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/line_plane_intersec/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/line_plane_intersec/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_line_plane_intersec/fast">
+				<Option output="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/bin/test_line_plane_intersec" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/3rdparty"/>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/modules/line_plane_intersec/."/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/line_plane_intersec/test/Makefile&quot;  VERBOSE=1 test_line_plane_intersec/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/line_plane_intersec/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/line_plane_intersec/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/line_plane_intersec/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lib_quadratic-equation">
+				<Option output="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/lib/libquadratic-equation.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/modules/quadratic-equation/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/3rdparty"/>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/modules/quadratic-equation/."/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/quadratic-equation/src/Makefile&quot;  VERBOSE=1 lib_quadratic-equation"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/quadratic-equation/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/quadratic-equation/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/quadratic-equation/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lib_quadratic-equation/fast">
+				<Option output="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/lib/libquadratic-equation.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/modules/quadratic-equation/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/3rdparty"/>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/modules/quadratic-equation/."/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/quadratic-equation/src/Makefile&quot;  VERBOSE=1 lib_quadratic-equation/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/quadratic-equation/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/quadratic-equation/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/quadratic-equation/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_quadratic-equation">
+				<Option output="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/bin/test_quadratic-equation" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/3rdparty"/>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/modules/quadratic-equation/."/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/quadratic-equation/test/Makefile&quot;  VERBOSE=1 test_quadratic-equation"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/quadratic-equation/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/quadratic-equation/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/quadratic-equation/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_quadratic-equation/fast">
+				<Option output="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/bin/test_quadratic-equation" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/3rdparty"/>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/modules/quadratic-equation/."/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/quadratic-equation/test/Makefile&quot;  VERBOSE=1 test_quadratic-equation/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/quadratic-equation/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/quadratic-equation/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/quadratic-equation/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lib_rom_arabic_numbers_converter">
+				<Option output="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/lib/librom_arabic_numbers_converter.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/modules/rom_arabic_numbers_converter/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/3rdparty"/>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/modules/rom_arabic_numbers_converter/."/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/rom_arabic_numbers_converter/src/Makefile&quot;  VERBOSE=1 lib_rom_arabic_numbers_converter"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/rom_arabic_numbers_converter/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/rom_arabic_numbers_converter/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/rom_arabic_numbers_converter/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lib_rom_arabic_numbers_converter/fast">
+				<Option output="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/lib/librom_arabic_numbers_converter.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/modules/rom_arabic_numbers_converter/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/3rdparty"/>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/modules/rom_arabic_numbers_converter/."/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/rom_arabic_numbers_converter/src/Makefile&quot;  VERBOSE=1 lib_rom_arabic_numbers_converter/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/rom_arabic_numbers_converter/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/rom_arabic_numbers_converter/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/rom_arabic_numbers_converter/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_rom_arabic_numbers_converter">
+				<Option output="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/bin/test_rom_arabic_numbers_converter" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/3rdparty"/>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/modules/rom_arabic_numbers_converter/."/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/rom_arabic_numbers_converter/test/Makefile&quot;  VERBOSE=1 test_rom_arabic_numbers_converter"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/rom_arabic_numbers_converter/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/rom_arabic_numbers_converter/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/rom_arabic_numbers_converter/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_rom_arabic_numbers_converter/fast">
+				<Option output="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/bin/test_rom_arabic_numbers_converter" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/3rdparty"/>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/modules/rom_arabic_numbers_converter/."/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/rom_arabic_numbers_converter/test/Makefile&quot;  VERBOSE=1 test_rom_arabic_numbers_converter/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/rom_arabic_numbers_converter/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/rom_arabic_numbers_converter/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/rom_arabic_numbers_converter/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lib_search-tree">
+				<Option output="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/lib/libsearch-tree.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/modules/search-tree/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/3rdparty"/>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/modules/search-tree/."/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/search-tree/src/Makefile&quot;  VERBOSE=1 lib_search-tree"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/search-tree/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/search-tree/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/search-tree/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lib_search-tree/fast">
+				<Option output="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/lib/libsearch-tree.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/modules/search-tree/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/3rdparty"/>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/modules/search-tree/."/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/search-tree/src/Makefile&quot;  VERBOSE=1 lib_search-tree/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/search-tree/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/search-tree/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/search-tree/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_search-tree">
+				<Option output="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/bin/test_search-tree" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/3rdparty"/>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/modules/search-tree/."/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/search-tree/test/Makefile&quot;  VERBOSE=1 test_search-tree"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/search-tree/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/search-tree/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/search-tree/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_search-tree/fast">
+				<Option output="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/bin/test_search-tree" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/3rdparty"/>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/modules/search-tree/."/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/search-tree/test/Makefile&quot;  VERBOSE=1 test_search-tree/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/search-tree/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/search-tree/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/search-tree/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="app_search-tree">
+				<Option output="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/bin/search-tree" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/3rdparty"/>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/modules/search-tree/."/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/search-tree/application/Makefile&quot;  VERBOSE=1 app_search-tree"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/search-tree/application/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/search-tree/application/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/search-tree/application/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="app_search-tree/fast">
+				<Option output="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/bin/search-tree" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/3rdparty"/>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/modules/search-tree/."/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/search-tree/application/Makefile&quot;  VERBOSE=1 app_search-tree/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/search-tree/application/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/search-tree/application/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/search-tree/application/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_stack">
+				<Option output="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/bin/test_stack" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/3rdparty"/>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/modules/stack/."/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/stack/test/Makefile&quot;  VERBOSE=1 test_stack"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/stack/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/stack/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/stack/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_stack/fast">
+				<Option output="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/bin/test_stack" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/3rdparty"/>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/modules/stack/."/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/stack/test/Makefile&quot;  VERBOSE=1 test_stack/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/stack/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/stack/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/stack/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lib_triangle">
+				<Option output="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/lib/libtriangle.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/modules/triangle/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/3rdparty"/>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/modules/triangle/."/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/triangle/src/Makefile&quot;  VERBOSE=1 lib_triangle"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/triangle/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/triangle/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/triangle/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lib_triangle/fast">
+				<Option output="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/lib/libtriangle.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/modules/triangle/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/3rdparty"/>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/modules/triangle/."/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/triangle/src/Makefile&quot;  VERBOSE=1 lib_triangle/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/triangle/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/triangle/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/triangle/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_triangle">
+				<Option output="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/bin/test_triangle" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/3rdparty"/>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/modules/triangle/."/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/triangle/test/Makefile&quot;  VERBOSE=1 test_triangle"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/triangle/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/triangle/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/triangle/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_triangle/fast">
+				<Option output="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/bin/test_triangle" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/3rdparty"/>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/modules/triangle/."/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/triangle/test/Makefile&quot;  VERBOSE=1 test_triangle/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/triangle/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/triangle/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/triangle/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/3rdparty/gtest/gtest-all.cc">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/Sort/include/Sort.h">
+			<Option target="cpplint"/>
+			<Option target="lib_Sort"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/Sort/src/Sort.cpp">
+			<Option target="cpplint"/>
+			<Option target="lib_Sort"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/Sort/test/test_Sort.cpp">
+			<Option target="cpplint"/>
+			<Option target="test_Sort"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/Sort/test/test_main.cpp">
+			<Option target="cpplint"/>
+			<Option target="test_Sort"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/area-of-three-dimensional-figures/include/calculator.h">
+			<Option target="cpplint"/>
+			<Option target="lib_area-of-three-dimensional-figures"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/area-of-three-dimensional-figures/src/calculator.cpp">
+			<Option target="cpplint"/>
+			<Option target="lib_area-of-three-dimensional-figures"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/area-of-three-dimensional-figures/test/test_calculator.cpp">
+			<Option target="cpplint"/>
+			<Option target="test_area-of-three-dimensional-figures"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/area-of-three-dimensional-figures/test/test_main.cpp">
+			<Option target="cpplint"/>
+			<Option target="test_area-of-three-dimensional-figures"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/arithmetic-parser/include/arithmetic_parser.h">
+			<Option target="cpplint"/>
+			<Option target="lib_arithmetic-parser"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/arithmetic-parser/src/arithmetic_parser.cpp">
+			<Option target="cpplint"/>
+			<Option target="lib_arithmetic-parser"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/arithmetic-parser/test/test_arithmetic_parser.cpp">
+			<Option target="cpplint"/>
+			<Option target="test_arithmetic-parser"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/arithmetic-parser/test/test_main.cpp">
+			<Option target="cpplint"/>
+			<Option target="test_arithmetic-parser"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/bit-array/include/bit_array.h">
+			<Option target="cpplint"/>
+			<Option target="lib_bit-array"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/bit-array/src/bit_array.cpp">
+			<Option target="cpplint"/>
+			<Option target="lib_bit-array"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/bit-array/test/test_grachev_vlad_bit_array.cpp">
+			<Option target="cpplint"/>
+			<Option target="test_bit-array"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/bit-array/test/test_main.cpp">
+			<Option target="cpplint"/>
+			<Option target="test_bit-array"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/color-spaces/include/hsb_hsv_space.h">
+			<Option target="cpplint"/>
+			<Option target="lib_color-spaces"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/color-spaces/include/lab_space.h">
+			<Option target="cpplint"/>
+			<Option target="lib_color-spaces"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/color-spaces/include/rgb_space.h">
+			<Option target="cpplint"/>
+			<Option target="lib_color-spaces"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/color-spaces/include/xyz_space.h">
+			<Option target="cpplint"/>
+			<Option target="lib_color-spaces"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/color-spaces/src/hsb_hsv_space.cpp">
+			<Option target="cpplint"/>
+			<Option target="lib_color-spaces"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/color-spaces/src/lab_space.cpp">
+			<Option target="cpplint"/>
+			<Option target="lib_color-spaces"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/color-spaces/src/rgb_space.cpp">
+			<Option target="cpplint"/>
+			<Option target="lib_color-spaces"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/color-spaces/src/xyz_space.cpp">
+			<Option target="cpplint"/>
+			<Option target="lib_color-spaces"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/color-spaces/test/test_hsb_hsv_space.cpp">
+			<Option target="cpplint"/>
+			<Option target="test_color-spaces"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/color-spaces/test/test_integration_space.cpp">
+			<Option target="cpplint"/>
+			<Option target="test_color-spaces"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/color-spaces/test/test_lab_space.cpp">
+			<Option target="cpplint"/>
+			<Option target="test_color-spaces"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/color-spaces/test/test_main.cpp">
+			<Option target="cpplint"/>
+			<Option target="test_color-spaces"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/color-spaces/test/test_rgb_space.cpp">
+			<Option target="cpplint"/>
+			<Option target="test_color-spaces"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/color-spaces/test/test_xyz_space.cpp">
+			<Option target="cpplint"/>
+			<Option target="test_color-spaces"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/complex-number/application/complex-number.cpp">
+			<Option target="cpplint"/>
+			<Option target="app_complex-number"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/complex-number/include/complex_calculator.h">
+			<Option target="cpplint"/>
+			<Option target="lib_complex-number"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/complex-number/include/complex_number.h">
+			<Option target="cpplint"/>
+			<Option target="lib_complex-number"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/complex-number/src/complex_calculator.cpp">
+			<Option target="cpplint"/>
+			<Option target="lib_complex-number"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/complex-number/src/complex_number.cpp">
+			<Option target="cpplint"/>
+			<Option target="lib_complex-number"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/complex-number/test/test-kiseleva-olga-complex-number.cpp">
+			<Option target="cpplint"/>
+			<Option target="test_complex-number"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/complex-number/test/test_Blincov_Sergey_complex_number.cpp">
+			<Option target="cpplint"/>
+			<Option target="test_complex-number"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/complex-number/test/test_Doronin_Maxim_complex_number.cpp">
+			<Option target="cpplint"/>
+			<Option target="test_complex-number"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/complex-number/test/test_Fedorov_Igor_complex_number.cpp">
+			<Option target="cpplint"/>
+			<Option target="test_complex-number"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/complex-number/test/test_Ilya_Kiparenko_complex_number.cpp">
+			<Option target="cpplint"/>
+			<Option target="test_complex-number"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/complex-number/test/test_Mitrokhin_Nikita_complex_number.cpp">
+			<Option target="cpplint"/>
+			<Option target="test_complex-number"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/complex-number/test/test_Pletnev_Nikita_complex_number.cpp">
+			<Option target="cpplint"/>
+			<Option target="test_complex-number"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/complex-number/test/test_Vladimir_Kalinin_complex_number.cpp">
+			<Option target="cpplint"/>
+			<Option target="test_complex-number"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/complex-number/test/test_bakalin_andrey_complex_number.cpp">
+			<Option target="cpplint"/>
+			<Option target="test_complex-number"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/complex-number/test/test_baranov_evgeny_complex_number.cpp">
+			<Option target="cpplint"/>
+			<Option target="test_complex-number"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/complex-number/test/test_bevzuk_semen_complex_number.cpp">
+			<Option target="cpplint"/>
+			<Option target="test_complex-number"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/complex-number/test/test_bilkovsky_alexander_complex_number.cpp">
+			<Option target="cpplint"/>
+			<Option target="test_complex-number"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/complex-number/test/test_buldakov_vladislav_complex_number.cpp">
+			<Option target="cpplint"/>
+			<Option target="test_complex-number"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/complex-number/test/test_complex_calculator.cpp">
+			<Option target="cpplint"/>
+			<Option target="test_complex-number"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/complex-number/test/test_complex_number.cpp">
+			<Option target="cpplint"/>
+			<Option target="test_complex-number"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/complex-number/test/test_dmitrichev_nikita_complex_number.cpp">
+			<Option target="cpplint"/>
+			<Option target="test_complex-number"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/complex-number/test/test_gaivanuk_alexander_complex_number.cpp">
+			<Option target="cpplint"/>
+			<Option target="test_complex-number"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/complex-number/test/test_gorozhanin_mihail_complex_number.cpp">
+			<Option target="cpplint"/>
+			<Option target="test_complex-number"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/complex-number/test/test_grachev_vlad_complex_number.cpp">
+			<Option target="cpplint"/>
+			<Option target="test_complex-number"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/complex-number/test/test_grechuhin_nikta_complex_number.cpp">
+			<Option target="cpplint"/>
+			<Option target="test_complex-number"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/complex-number/test/test_gvozdeva_viktoriia_complex_number.cpp">
+			<Option target="cpplint"/>
+			<Option target="test_complex-number"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/complex-number/test/test_israfilov_marat_complex_number.cpp">
+			<Option target="cpplint"/>
+			<Option target="test_complex-number"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/complex-number/test/test_kabalova_anna_complex_number.cpp">
+			<Option target="cpplint"/>
+			<Option target="test_complex-number"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/complex-number/test/test_karev_boris_complex_number.cpp">
+			<Option target="cpplint"/>
+			<Option target="test_complex-number"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/complex-number/test/test_kazakov_andrew_complex_number.cpp">
+			<Option target="cpplint"/>
+			<Option target="test_complex-number"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/complex-number/test/test_kildishev_maxim_complex_number.cpp">
+			<Option target="cpplint"/>
+			<Option target="test_complex-number"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/complex-number/test/test_kiselev_ivan_complex_number.cpp">
+			<Option target="cpplint"/>
+			<Option target="test_complex-number"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/complex-number/test/test_kochin_ivan_complex_number.cpp">
+			<Option target="cpplint"/>
+			<Option target="test_complex-number"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/complex-number/test/test_komarov_nikolay_complex_number.cpp">
+			<Option target="cpplint"/>
+			<Option target="test_complex-number"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/complex-number/test/test_korniakov_kirill_complex_number.cpp">
+			<Option target="cpplint"/>
+			<Option target="test_complex-number"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/complex-number/test/test_kozlov_ilya_complex_number.cpp">
+			<Option target="cpplint"/>
+			<Option target="test_complex-number"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/complex-number/test/test_kuchkov_ivan_complex_number.cpp">
+			<Option target="cpplint"/>
+			<Option target="test_complex-number"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/complex-number/test/test_kulygina_julia_complex_number.cpp">
+			<Option target="cpplint"/>
+			<Option target="test_complex-number"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/complex-number/test/test_lapin_artem_complex_number.cpp">
+			<Option target="cpplint"/>
+			<Option target="test_complex-number"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/complex-number/test/test_lobanov_andrey_complex_number.cpp">
+			<Option target="cpplint"/>
+			<Option target="test_complex-number"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/complex-number/test/test_main.cpp">
+			<Option target="cpplint"/>
+			<Option target="test_complex-number"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/complex-number/test/test_mironova_anna_complex_number.cpp">
+			<Option target="cpplint"/>
+			<Option target="test_complex-number"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/complex-number/test/test_nazarov_aleksandr_complex_number.cpp">
+			<Option target="cpplint"/>
+			<Option target="test_complex-number"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/complex-number/test/test_nesterov_alexander_complex_number.cpp">
+			<Option target="cpplint"/>
+			<Option target="test_complex-number"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/complex-number/test/test_povelikin_rostislav_complex_number.cpp">
+			<Option target="cpplint"/>
+			<Option target="test_complex-number"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/complex-number/test/test_simonyan_vaginak_complex_number.cpp">
+			<Option target="cpplint"/>
+			<Option target="test_complex-number"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/complex-number/test/test_tarasov_oleg_complex_number.cpp">
+			<Option target="cpplint"/>
+			<Option target="test_complex-number"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/complex-number/test/test_vasin_stanislav_complex_number.cpp">
+			<Option target="cpplint"/>
+			<Option target="test_complex-number"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/complex-number/test/test_vinogradova_ekaterinal_complex_number.cpp">
+			<Option target="cpplint"/>
+			<Option target="test_complex-number"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/complex-number/test/test_yashkov_vladislav_complex_number.cpp">
+			<Option target="cpplint"/>
+			<Option target="test_complex-number"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/complex-number/test/test_zemlyanskiy.cpp">
+			<Option target="cpplint"/>
+			<Option target="test_complex-number"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/complex-number/test/test_zhorin_sergey_complex_number.cpp">
+			<Option target="cpplint"/>
+			<Option target="test_complex-number"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/complex-number/test/test_zorina_ekaterina_complex_number.cpp">
+			<Option target="cpplint"/>
+			<Option target="test_complex-number"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/credit-calculator/include/credit_calculator.h">
+			<Option target="cpplint"/>
+			<Option target="lib_credit-calculator"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/credit-calculator/src/credit_calculator.cpp">
+			<Option target="cpplint"/>
+			<Option target="lib_credit-calculator"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/credit-calculator/test/test_credit_calculator.cpp">
+			<Option target="cpplint"/>
+			<Option target="test_credit-calculator"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/credit-calculator/test/test_main.cpp">
+			<Option target="cpplint"/>
+			<Option target="test_credit-calculator"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/fraction/application/fractioncalc.cpp">
+			<Option target="cpplint"/>
+			<Option target="app_fraction"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/fraction/include/fraction.h">
+			<Option target="cpplint"/>
+			<Option target="lib_fraction"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/fraction/include/fraction_calculator.h">
+			<Option target="cpplint"/>
+			<Option target="lib_fraction"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/fraction/src/fraction.cpp">
+			<Option target="cpplint"/>
+			<Option target="lib_fraction"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/fraction/src/fraction_calculator.cpp">
+			<Option target="cpplint"/>
+			<Option target="lib_fraction"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/fraction/test/test_fraction.cpp">
+			<Option target="cpplint"/>
+			<Option target="test_fraction"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/fraction/test/test_fraction_calculator.cpp">
+			<Option target="cpplint"/>
+			<Option target="test_fraction"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/fraction/test/test_main.cpp">
+			<Option target="cpplint"/>
+			<Option target="test_fraction"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/huffman-algoritm/include/huffman.h">
+			<Option target="cpplint"/>
+			<Option target="lib_huffman-algoritm"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/huffman-algoritm/src/huffman.cpp">
+			<Option target="cpplint"/>
+			<Option target="lib_huffman-algoritm"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/huffman-algoritm/test/test_huffman_algoritm.cpp">
+			<Option target="cpplint"/>
+			<Option target="test_huffman-algoritm"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/huffman-algoritm/test/test_main.cpp">
+			<Option target="cpplint"/>
+			<Option target="test_huffman-algoritm"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/length_converter/include/length_converter.h">
+			<Option target="cpplint"/>
+			<Option target="lib_length_converter"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/length_converter/src/length_converter.cpp">
+			<Option target="cpplint"/>
+			<Option target="lib_length_converter"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/length_converter/test/test_length_converter.cpp">
+			<Option target="cpplint"/>
+			<Option target="test_length_converter"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/length_converter/test/test_main.cpp">
+			<Option target="cpplint"/>
+			<Option target="test_length_converter"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/line_plane_intersec/include/line_plane_intersec.h">
+			<Option target="cpplint"/>
+			<Option target="lib_line_plane_intersec"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/line_plane_intersec/src/line_plane_intersec.cxx">
+			<Option target="cpplint"/>
+			<Option target="lib_line_plane_intersec"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/line_plane_intersec/test/test_line_plane_intersec.cpp">
+			<Option target="cpplint"/>
+			<Option target="test_line_plane_intersec"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/line_plane_intersec/test/test_main.cpp">
+			<Option target="cpplint"/>
+			<Option target="test_line_plane_intersec"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/quadratic-equation/include/quadratic_equation.h">
+			<Option target="cpplint"/>
+			<Option target="lib_quadratic-equation"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/quadratic-equation/src/quadratic_equation.cpp">
+			<Option target="cpplint"/>
+			<Option target="lib_quadratic-equation"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/quadratic-equation/test/test_main.cpp">
+			<Option target="cpplint"/>
+			<Option target="test_quadratic-equation"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/quadratic-equation/test/test_quadratic_equation.cpp">
+			<Option target="cpplint"/>
+			<Option target="test_quadratic-equation"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/rom_arabic_numbers_converter/include/rom_numbers_converter.h">
+			<Option target="cpplint"/>
+			<Option target="lib_rom_arabic_numbers_converter"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/rom_arabic_numbers_converter/src/rom_numbers_converter.cpp">
+			<Option target="cpplint"/>
+			<Option target="lib_rom_arabic_numbers_converter"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/rom_arabic_numbers_converter/test/arabic_to_rom_test.cpp">
+			<Option target="cpplint"/>
+			<Option target="test_rom_arabic_numbers_converter"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/rom_arabic_numbers_converter/test/rom_to_arabic_test.cpp">
+			<Option target="cpplint"/>
+			<Option target="test_rom_arabic_numbers_converter"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/rom_arabic_numbers_converter/test/test_main.cpp">
+			<Option target="cpplint"/>
+			<Option target="test_rom_arabic_numbers_converter"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/search-tree/application/app_main.cxx">
+			<Option target="cpplint"/>
+			<Option target="app_search-tree"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/search-tree/include/SearchTree.h">
+			<Option target="cpplint"/>
+			<Option target="lib_search-tree"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/search-tree/include/search-tree_app.h">
+			<Option target="cpplint"/>
+			<Option target="lib_search-tree"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/search-tree/src/SearchTree.cxx">
+			<Option target="cpplint"/>
+			<Option target="lib_search-tree"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/search-tree/src/search-tree_app.cxx">
+			<Option target="cpplint"/>
+			<Option target="lib_search-tree"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/search-tree/test/test_main.cpp">
+			<Option target="cpplint"/>
+			<Option target="test_search-tree"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/search-tree/test/test_search_tree.cpp">
+			<Option target="cpplint"/>
+			<Option target="test_search-tree"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/stack/include/stack.h">
+			<Option target="cpplint"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/stack/test/test_main.cpp">
+			<Option target="cpplint"/>
+			<Option target="test_stack"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/stack/test/test_stack.cpp">
+			<Option target="cpplint"/>
+			<Option target="test_stack"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/triangle/include/triangle.h">
+			<Option target="cpplint"/>
+			<Option target="lib_triangle"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/triangle/src/triangle.cpp">
+			<Option target="cpplint"/>
+			<Option target="lib_triangle"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/triangle/test/test_main.cpp">
+			<Option target="cpplint"/>
+			<Option target="test_triangle"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/triangle/test/test_triangle.cpp">
+			<Option target="cpplint"/>
+			<Option target="test_triangle"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/run_cpplint.cmake">
+			<Option target="cpplint"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/3rdparty/gtest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\3rdparty\gtest\"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/Sort/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\Sort\"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/Sort/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\Sort\src\"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/Sort/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\Sort\test\"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/area-of-three-dimensional-figures/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\area-of-three-dimensional-figures\"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/area-of-three-dimensional-figures/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\area-of-three-dimensional-figures\src\"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/area-of-three-dimensional-figures/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\area-of-three-dimensional-figures\test\"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/arithmetic-parser/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\arithmetic-parser\"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/arithmetic-parser/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\arithmetic-parser\src\"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/arithmetic-parser/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\arithmetic-parser\test\"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/bit-array/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\bit-array\"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/bit-array/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\bit-array\src\"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/bit-array/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\bit-array\test\"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/color-spaces/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\color-spaces\"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/color-spaces/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\color-spaces\src\"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/color-spaces/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\color-spaces\test\"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/complex-number/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\complex-number\"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/complex-number/CTestTests.txt">
+			<Option virtualFolder="CMake Files\modules\complex-number\"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/complex-number/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\complex-number\src\"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/complex-number/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\complex-number\test\"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/complex-number/application/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\complex-number\application\"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/credit-calculator/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\credit-calculator\"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/credit-calculator/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\credit-calculator\src\"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/credit-calculator/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\credit-calculator\test\"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/fraction/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\fraction\"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/fraction/CTestTests.txt">
+			<Option virtualFolder="CMake Files\modules\fraction\"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/fraction/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\fraction\src\"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/fraction/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\fraction\test\"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/fraction/application/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\fraction\application\"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/huffman-algoritm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\huffman-algoritm\"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/huffman-algoritm/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\huffman-algoritm\src\"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/huffman-algoritm/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\huffman-algoritm\test\"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/length_converter/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\length_converter\"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/length_converter/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\length_converter\src\"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/length_converter/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\length_converter\test\"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/line_plane_intersec/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\line_plane_intersec\"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/line_plane_intersec/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\line_plane_intersec\src\"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/line_plane_intersec/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\line_plane_intersec\test\"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/quadratic-equation/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\quadratic-equation\"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/quadratic-equation/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\quadratic-equation\src\"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/quadratic-equation/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\quadratic-equation\test\"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/rom_arabic_numbers_converter/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\rom_arabic_numbers_converter\"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/rom_arabic_numbers_converter/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\rom_arabic_numbers_converter\src\"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/rom_arabic_numbers_converter/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\rom_arabic_numbers_converter\test\"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/search-tree/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\search-tree\"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/search-tree/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\search-tree\src\"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/search-tree/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\search-tree\test\"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/search-tree/application/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\search-tree\application\"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/stack/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\stack\"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/stack/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\stack\test\"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/triangle/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\triangle\"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/triangle/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\triangle\src\"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/triangle/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\triangle\test\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

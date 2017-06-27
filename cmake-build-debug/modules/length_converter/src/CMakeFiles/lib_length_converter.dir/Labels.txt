@@ -1,0 +1,10 @@
+# Target labels
+ length_converter
+ Library
+# Source files and their labels
+/home/altmetal/с++ projects/devtools-course-practice-1/modules/length_converter/src/length_converter.cpp
+ length_converter
+ Library
+/home/altmetal/с++ projects/devtools-course-practice-1/modules/length_converter/include/length_converter.h
+ length_converter
+ Library

@@ -1,0 +1,16 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/home/altmetal/с++ projects/devtools-course-practice-1/modules/fraction/application/fractioncalc.cpp",
+			"labels" : [ "fraction", "Application" ]
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "fraction", "Application" ],
+		"name" : "app_fraction"
+	}
+}

@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../modules/search-tree/./include/./SearchTree.h
+
+../modules/search-tree/./include/SearchTree.h
+
+../modules/search-tree/./include/search-tree_app.h
+string
+-
+vector
+-
+./SearchTree.h
+../modules/search-tree/./include/./SearchTree.h
+
+/home/altmetal/с++ projects/devtools-course-practice-1/modules/search-tree/src/SearchTree.cxx
+include/SearchTree.h
+/home/altmetal/с++ projects/devtools-course-practice-1/modules/search-tree/src/include/SearchTree.h
+
+/home/altmetal/с++ projects/devtools-course-practice-1/modules/search-tree/src/search-tree_app.cxx
+include/search-tree_app.h
+-
+

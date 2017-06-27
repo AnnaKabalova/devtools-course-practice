@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11 -Wall -Werror -g   CMakeFiles/app_search-tree.dir/app_main.cxx.o  -o ../../../bin/search-tree -rdynamic ../../../lib/libsearch-tree.a ../../../lib/libgtest.a 

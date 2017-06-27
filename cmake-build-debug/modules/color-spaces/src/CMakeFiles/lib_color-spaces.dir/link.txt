@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../lib/libcolor-spaces.a  CMakeFiles/lib_color-spaces.dir/hsb_hsv_space.cpp.o CMakeFiles/lib_color-spaces.dir/lab_space.cpp.o CMakeFiles/lib_color-spaces.dir/rgb_space.cpp.o CMakeFiles/lib_color-spaces.dir/xyz_space.cpp.o
+/usr/bin/ranlib ../../../lib/libcolor-spaces.a

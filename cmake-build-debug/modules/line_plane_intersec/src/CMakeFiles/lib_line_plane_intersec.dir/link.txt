@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../lib/libline_plane_intersec.a  CMakeFiles/lib_line_plane_intersec.dir/line_plane_intersec.cxx.o
+/usr/bin/ranlib ../../../lib/libline_plane_intersec.a

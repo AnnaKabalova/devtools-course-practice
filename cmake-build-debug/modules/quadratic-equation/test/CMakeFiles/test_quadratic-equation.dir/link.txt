@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11 -Wall -Werror -g   CMakeFiles/test_quadratic-equation.dir/test_main.cpp.o CMakeFiles/test_quadratic-equation.dir/test_quadratic_equation.cpp.o  -o ../../../bin/test_quadratic-equation -rdynamic ../../../lib/libcomplex-number.a ../../../lib/libgtest.a -lpthread ../../../lib/libgtest.a ../../../lib/libquadratic-equation.a ../../../lib/libgtest.a 
