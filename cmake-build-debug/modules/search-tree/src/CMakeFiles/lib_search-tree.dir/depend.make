@@ -4,5 +4,7 @@
 modules/search-tree/src/CMakeFiles/lib_search-tree.dir/SearchTree.cxx.o: ../modules/search-tree/./include/SearchTree.h
 modules/search-tree/src/CMakeFiles/lib_search-tree.dir/SearchTree.cxx.o: ../modules/search-tree/src/SearchTree.cxx
 
+modules/search-tree/src/CMakeFiles/lib_search-tree.dir/search-tree_app.cxx.o: ../modules/search-tree/./include/./SearchTree.h
+modules/search-tree/src/CMakeFiles/lib_search-tree.dir/search-tree_app.cxx.o: ../modules/search-tree/./include/search-tree_app.h
 modules/search-tree/src/CMakeFiles/lib_search-tree.dir/search-tree_app.cxx.o: ../modules/search-tree/src/search-tree_app.cxx
 

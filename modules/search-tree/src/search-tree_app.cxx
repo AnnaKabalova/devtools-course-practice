@@ -20,9 +20,9 @@ void SearchTreeApplication::help(const char *arg, const char *message) {
 
 std::string SearchTreeApplication::operator()(int argc, const char **argv) {
     Arguments arg;
-    SearchTree* tree;
+    SearchTree* tree = new SearchTree();
     const Node* node;
-    
+
 
     if (!validateNumberOfArguments(argc, argv)) {
         return _message;
@@ -60,7 +60,8 @@ std::string SearchTreeApplication::operator()(int argc, const char **argv) {
     }
     else
         _message = "Wrong act!";
-
+    
+    return _message;
 }
 
 bool SearchTreeApplication::validateNumberOfArguments(int argc, const char **argv) {
