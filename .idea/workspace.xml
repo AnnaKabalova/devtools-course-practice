@@ -47,14 +47,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e62ea2d6-2c5a-4914-b498-c07a0a36d528" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/bin/test_search-tree" afterPath="$PROJECT_DIR$/cmake-build-debug/bin/test_search-tree" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/lib/libsearch-tree.a" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libsearch-tree.a" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/modules/search-tree/src/CMakeFiles/lib_search-tree.dir/search-tree_app.cxx.o" afterPath="$PROJECT_DIR$/cmake-build-debug/modules/search-tree/src/CMakeFiles/lib_search-tree.dir/search-tree_app.cxx.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/modules/search-tree/test/CMakeFiles/test_search-tree.dir/test_search_tree_app.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/modules/search-tree/test/CMakeFiles/test_search-tree.dir/test_search_tree_app.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/search-tree/CMakeLists.txt" afterPath="$PROJECT_DIR$/modules/search-tree/CMakeLists.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/search-tree/src/search-tree_app.cxx" afterPath="$PROJECT_DIR$/modules/search-tree/src/search-tree_app.cxx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/search-tree/test/test_search_tree_app.cpp" afterPath="$PROJECT_DIR$/modules/search-tree/test/test_search_tree_app.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/search-tree/CTestTests.txt" afterPath="$PROJECT_DIR$/modules/search-tree/CTestTests.txt" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -70,8 +63,8 @@
       <file leaf-file-name="test_search_tree_app.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/search-tree/test/test_search_tree_app.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="36" column="12" lean-forward="false" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="43" />
+            <state relative-caret-position="471">
+              <caret line="136" column="12" lean-forward="false" selection-start-line="136" selection-start-column="12" selection-end-line="136" selection-end-column="25" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
               </folding>
@@ -82,8 +75,28 @@
       <file leaf-file-name="CTestTests.txt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/modules/search-tree/CTestTests.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="18" column="69" lean-forward="false" selection-start-line="18" selection-start-column="69" selection-end-line="18" selection-end-column="69" />
+            <state relative-caret-position="1580">
+              <caret line="79" column="1" lean-forward="false" selection-start-line="79" selection-start-column="1" selection-end-line="79" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/search-tree/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="19" column="25" lean-forward="false" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/fraction/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="19" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -621,7 +634,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1498590056618</updated>
-      <workItem from="1498590057955" duration="9267000" />
+      <workItem from="1498590057955" duration="10062000" />
     </task>
     <servers />
   </component>
@@ -658,7 +671,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9267000" />
+    <option name="totallyTimeSpent" value="10062000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
@@ -905,10 +918,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/search-tree/CMakeLists.txt">
+    <entry file="file://$PROJECT_DIR$/modules/fraction/CTestTests.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="19" column="25" lean-forward="false" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+        <state relative-caret-position="-80">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -921,28 +934,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/modules/search-tree/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="19" column="25" lean-forward="false" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/modules/search-tree/test/test_search_tree_app.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="36" column="12" lean-forward="false" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="43" />
+        <state relative-caret-position="471">
+          <caret line="136" column="12" lean-forward="false" selection-start-line="136" selection-start-column="12" selection-end-line="136" selection-end-column="25" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/fraction/CTestTests.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-80">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modules/search-tree/CTestTests.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="18" column="69" lean-forward="false" selection-start-line="18" selection-start-column="69" selection-end-line="18" selection-end-column="69" />
+        <state relative-caret-position="1580">
+          <caret line="79" column="1" lean-forward="false" selection-start-line="79" selection-start-column="1" selection-end-line="79" selection-end-column="1" />
           <folding />
         </state>
       </provider>
