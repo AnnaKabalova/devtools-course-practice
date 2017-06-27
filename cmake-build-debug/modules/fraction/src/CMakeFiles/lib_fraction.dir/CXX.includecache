@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../modules/fraction/./include/fraction.h
+
+../modules/fraction/./include/fraction_calculator.h
+string
+-
+
+/home/altmetal/с++ projects/devtools-course-practice-1/modules/fraction/src/fraction.cpp
+include/fraction.h
+/home/altmetal/с++ projects/devtools-course-practice-1/modules/fraction/src/include/fraction.h
+cstdlib
+-
+string
+-
+stdexcept
+-
+
+/home/altmetal/с++ projects/devtools-course-practice-1/modules/fraction/src/fraction_calculator.cpp
+include/fraction.h
+/home/altmetal/с++ projects/devtools-course-practice-1/modules/fraction/src/include/fraction.h
+include/fraction_calculator.h
+/home/altmetal/с++ projects/devtools-course-practice-1/modules/fraction/src/include/fraction_calculator.h
+string
+-
+sstream
+-
+stdexcept
+-
+
