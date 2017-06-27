@@ -48,14 +48,14 @@ set_tests_properties (${prefix}_Can_Find_Min
 
 add_test(
     NAME ${prefix}_Can_Find_Element
-    COMMAND ${APPLICATION} 3 MIN 1 2 3 3
+    COMMAND ${APPLICATION} 3 FIND 1 2 3 3
 )
 set_tests_properties (${prefix}_Can_Find_Element
   PROPERTIES PASS_REGULAR_EXPRESSION "The searched element found!")
 
 add_test(
     NAME ${prefix}_Print_Error_If_Element_Not_In_Tree
-    COMMAND ${APPLICATION} 3 MIN 1 2 3 3
+    COMMAND ${APPLICATION} 3 FIND 1 2 3 4
 )
 set_tests_properties (${prefix}_Print_Error_If_Element_Not_In_Tree
   PROPERTIES PASS_REGULAR_EXPRESSION "No such element in tree")
@@ -69,7 +69,7 @@ set_tests_properties (${prefix}_Can_Find_Min_With_Negative_Values
 
 add_test(
     NAME ${prefix}_Can_Find_Max_In_Negative_Values
-    COMMAND ${APPLICATION} 3 MIN -1 -2 -3 4
+    COMMAND ${APPLICATION} 3 MAX -1 -2 -3 4
 )
 set_tests_properties (${prefix}_Can_Find_Max_In_Negative_Values
   PROPERTIES PASS_REGULAR_EXPRESSION "The minimal element is -1")
