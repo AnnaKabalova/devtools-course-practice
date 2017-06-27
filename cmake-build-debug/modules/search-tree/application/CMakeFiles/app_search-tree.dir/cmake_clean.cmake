@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/app_search-tree.dir/app_main.cpp.o"
+  "CMakeFiles/app_search-tree.dir/app_main.cxx.o"
   "../../../lib/search-tree.pdb"
   "../../../bin/search-tree"
 )

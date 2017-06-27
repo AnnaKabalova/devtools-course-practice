@@ -168,6 +168,10 @@
 /home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/modules/search-tree/test/CMakeFiles/edit_cache.dir
 /home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/modules/search-tree/test/CMakeFiles/test.dir
 /home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/modules/search-tree/test/CMakeFiles/test_search-tree.dir
+/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/modules/search-tree/application/CMakeFiles/rebuild_cache.dir
+/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/modules/search-tree/application/CMakeFiles/edit_cache.dir
+/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/modules/search-tree/application/CMakeFiles/test.dir
+/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/modules/search-tree/application/CMakeFiles/app_search-tree.dir
 /home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/modules/stack/CMakeFiles/rebuild_cache.dir
 /home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/modules/stack/CMakeFiles/edit_cache.dir
 /home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/modules/stack/CMakeFiles/test.dir

@@ -36,6 +36,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/modules/search-tree/src/cmake_install.cmake")
   include("/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/modules/search-tree/test/cmake_install.cmake")
+  include("/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/modules/search-tree/application/cmake_install.cmake")
 
 endif()
 

@@ -5,7 +5,7 @@
 		<Option title="DevTools"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\3rdparty\;CMake Files\3rdparty\gtest\;CMake Files\modules\;CMake Files\modules\Sort\;CMake Files\modules\Sort\src\;CMake Files\modules\Sort\test\;CMake Files\modules\area-of-three-dimensional-figures\;CMake Files\modules\area-of-three-dimensional-figures\src\;CMake Files\modules\area-of-three-dimensional-figures\test\;CMake Files\modules\arithmetic-parser\;CMake Files\modules\arithmetic-parser\src\;CMake Files\modules\arithmetic-parser\test\;CMake Files\modules\bit-array\;CMake Files\modules\bit-array\src\;CMake Files\modules\bit-array\test\;CMake Files\modules\color-spaces\;CMake Files\modules\color-spaces\src\;CMake Files\modules\color-spaces\test\;CMake Files\modules\complex-number\;CMake Files\modules\complex-number\src\;CMake Files\modules\complex-number\test\;CMake Files\modules\complex-number\application\;CMake Files\modules\credit-calculator\;CMake Files\modules\credit-calculator\src\;CMake Files\modules\credit-calculator\test\;CMake Files\modules\fraction\;CMake Files\modules\fraction\src\;CMake Files\modules\fraction\test\;CMake Files\modules\fraction\application\;CMake Files\modules\huffman-algoritm\;CMake Files\modules\huffman-algoritm\src\;CMake Files\modules\huffman-algoritm\test\;CMake Files\modules\length_converter\;CMake Files\modules\length_converter\src\;CMake Files\modules\length_converter\test\;CMake Files\modules\line_plane_intersec\;CMake Files\modules\line_plane_intersec\src\;CMake Files\modules\line_plane_intersec\test\;CMake Files\modules\quadratic-equation\;CMake Files\modules\quadratic-equation\src\;CMake Files\modules\quadratic-equation\test\;CMake Files\modules\rom_arabic_numbers_converter\;CMake Files\modules\rom_arabic_numbers_converter\src\;CMake Files\modules\rom_arabic_numbers_converter\test\;CMake Files\modules\search-tree\;CMake Files\modules\search-tree\src\;CMake Files\modules\search-tree\test\;CMake Files\modules\stack\;CMake Files\modules\stack\test\;CMake Files\modules\triangle\;CMake Files\modules\triangle\src\;CMake Files\modules\triangle\test\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\3rdparty\;CMake Files\3rdparty\gtest\;CMake Files\modules\;CMake Files\modules\Sort\;CMake Files\modules\Sort\src\;CMake Files\modules\Sort\test\;CMake Files\modules\area-of-three-dimensional-figures\;CMake Files\modules\area-of-three-dimensional-figures\src\;CMake Files\modules\area-of-three-dimensional-figures\test\;CMake Files\modules\arithmetic-parser\;CMake Files\modules\arithmetic-parser\src\;CMake Files\modules\arithmetic-parser\test\;CMake Files\modules\bit-array\;CMake Files\modules\bit-array\src\;CMake Files\modules\bit-array\test\;CMake Files\modules\color-spaces\;CMake Files\modules\color-spaces\src\;CMake Files\modules\color-spaces\test\;CMake Files\modules\complex-number\;CMake Files\modules\complex-number\src\;CMake Files\modules\complex-number\test\;CMake Files\modules\complex-number\application\;CMake Files\modules\credit-calculator\;CMake Files\modules\credit-calculator\src\;CMake Files\modules\credit-calculator\test\;CMake Files\modules\fraction\;CMake Files\modules\fraction\src\;CMake Files\modules\fraction\test\;CMake Files\modules\fraction\application\;CMake Files\modules\huffman-algoritm\;CMake Files\modules\huffman-algoritm\src\;CMake Files\modules\huffman-algoritm\test\;CMake Files\modules\length_converter\;CMake Files\modules\length_converter\src\;CMake Files\modules\length_converter\test\;CMake Files\modules\line_plane_intersec\;CMake Files\modules\line_plane_intersec\src\;CMake Files\modules\line_plane_intersec\test\;CMake Files\modules\quadratic-equation\;CMake Files\modules\quadratic-equation\src\;CMake Files\modules\quadratic-equation\test\;CMake Files\modules\rom_arabic_numbers_converter\;CMake Files\modules\rom_arabic_numbers_converter\src\;CMake Files\modules\rom_arabic_numbers_converter\test\;CMake Files\modules\search-tree\;CMake Files\modules\search-tree\src\;CMake Files\modules\search-tree\test\;CMake Files\modules\search-tree\application\;CMake Files\modules\stack\;CMake Files\modules\stack\test\;CMake Files\modules\triangle\;CMake Files\modules\triangle\src\;CMake Files\modules\triangle\test\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug"/>
@@ -1605,6 +1605,56 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/search-tree/test/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="app_search-tree">
+				<Option output="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/bin/search-tree" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/3rdparty"/>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/modules/search-tree/."/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/search-tree/application/Makefile&quot;  VERBOSE=1 app_search-tree"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/search-tree/application/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/search-tree/application/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/search-tree/application/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="app_search-tree/fast">
+				<Option output="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/bin/search-tree" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/3rdparty"/>
+					<Add directory="/home/altmetal/с++ projects/devtools-course-practice-1/modules/search-tree/."/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/search-tree/application/Makefile&quot;  VERBOSE=1 app_search-tree/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/search-tree/application/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/search-tree/application/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/altmetal/с++\ projects/devtools-course-practice-1/cmake-build-debug/modules/search-tree/application/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="test_stack">
 				<Option output="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/bin/test_stack" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/bin"/>
@@ -2223,8 +2273,9 @@
 			<Option target="cpplint"/>
 			<Option target="test_rom_arabic_numbers_converter"/>
 		</Unit>
-		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/search-tree/application/app_main.cpp">
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/search-tree/application/app_main.cxx">
 			<Option target="cpplint"/>
+			<Option target="app_search-tree"/>
 		</Unit>
 		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/search-tree/include/SearchTree.h">
 			<Option target="cpplint"/>
@@ -2423,6 +2474,9 @@
 		</Unit>
 		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/search-tree/test/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\modules\search-tree\test\"/>
+		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/search-tree/application/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\search-tree\application\"/>
 		</Unit>
 		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/stack/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\modules\stack\"/>

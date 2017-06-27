@@ -538,6 +538,19 @@ test_search-tree/fast:
 .PHONY : test_search-tree/fast
 
 #=============================================================================
+# Target rules for targets named app_search-tree
+
+# Build rule for target.
+app_search-tree: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 app_search-tree
+.PHONY : app_search-tree
+
+# fast build rule for target.
+app_search-tree/fast:
+	$(MAKE) -f modules/search-tree/application/CMakeFiles/app_search-tree.dir/build.make modules/search-tree/application/CMakeFiles/app_search-tree.dir/build
+.PHONY : app_search-tree/fast
+
+#=============================================================================
 # Target rules for targets named test_stack
 
 # Build rule for target.
@@ -617,6 +630,7 @@ help:
 	@echo "... test_rom_arabic_numbers_converter"
 	@echo "... lib_search-tree"
 	@echo "... test_search-tree"
+	@echo "... app_search-tree"
 	@echo "... test_stack"
 	@echo "... lib_triangle"
 	@echo "... test_triangle"

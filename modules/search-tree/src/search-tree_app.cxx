@@ -1,14 +1,10 @@
-//
-// Created by altmetal on 27.06.17.
-//
-
 #include <include/search-tree_app.h>
 
 
 SearchTreeApplication::SearchTreeApplication(): _message("") {}
 
 void SearchTreeApplication::help(const char *arg, const char *message) {
-    _message = std::string("") + "This is matrix determinant application\n" +
+    _message = std::string("") + "This is search tree application\n" +
                "Please provide arguments in the following format:\n" +
                "Elements must be entered in format "+
                "num_of_elements act elements search_item\n" +
@@ -51,12 +47,11 @@ std::string SearchTreeApplication::operator()(int argc, const char **argv) {
             _message = "Tree is empty";
     } else if (arg._act=="FIND") {
 
-        if(!tree->IsEmpty()) {
-            node = tree->Search(arg._search_elem);
-            _message = "The searched element found! (" + std::to_string(node->key)+")";
-        }
+        node = tree->Search(arg._search_elem);
+        if (node != (Node *) 0)
+            _message = "The searched element found! (" + std::to_string(node->key) + ")";
         else
-            _message = "Tree is empty";
+            _message = "No such element in tree";
     }
     else
         _message = "Wrong act!";
@@ -67,8 +62,9 @@ std::string SearchTreeApplication::operator()(int argc, const char **argv) {
 bool SearchTreeApplication::validateNumberOfArguments(int argc, const char **argv) {
     if (argc == 1) {
         help(argv[0]);
+        printf("in argc==1");
         return false;
-    } else { if (atoi(argv[2])|| argc!=(atoi(argv[1])+2)) {
+    } else { if (atoi(argv[2])|| argc!=(atoi(argv[1])+4)) {
             help(argv[0], "ERROR: wrong arguments");
             return false;
         }

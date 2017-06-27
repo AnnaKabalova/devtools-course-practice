@@ -119,7 +119,6 @@ file(REMOVE_RECURSE
   "cpplint.out/rom_arabic_numbers_converter/test/arabic_to_rom_test.cpp.cpplint.out"
   "cpplint.out/rom_arabic_numbers_converter/test/rom_to_arabic_test.cpp.cpplint.out"
   "cpplint.out/rom_arabic_numbers_converter/test/test_main.cpp.cpplint.out"
-  "cpplint.out/search-tree/application/app_main.cpp.cpplint.out"
   "cpplint.out/search-tree/test/test_main.cpp.cpplint.out"
   "cpplint.out/search-tree/test/test_search_tree.cpp.cpplint.out"
   "cpplint.out/stack/test/test_main.cpp.cpplint.out"
@@ -128,6 +127,7 @@ file(REMOVE_RECURSE
   "cpplint.out/triangle/test/test_main.cpp.cpplint.out"
   "cpplint.out/triangle/test/test_triangle.cpp.cpplint.out"
   "cpplint.out/line_plane_intersec/src/line_plane_intersec.cxx.cpplint.out"
+  "cpplint.out/search-tree/application/app_main.cxx.cpplint.out"
   "cpplint.out/search-tree/src/SearchTree.cxx.cpplint.out"
   "cpplint.out/search-tree/src/search-tree_app.cxx.cpplint.out"
 )

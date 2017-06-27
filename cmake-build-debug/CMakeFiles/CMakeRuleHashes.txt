@@ -116,7 +116,7 @@ e115a39e096908d24c352e4b8fd7d899 cpplint.out/quadratic-equation/include/quadrati
 7428b5bd20f98f4147d399f979ce31fb cpplint.out/rom_arabic_numbers_converter/test/arabic_to_rom_test.cpp.cpplint.out
 74cc6dad4b30d935d88115f47c6d9699 cpplint.out/rom_arabic_numbers_converter/test/rom_to_arabic_test.cpp.cpplint.out
 de82110e77172a83bb3adba1a037549d cpplint.out/rom_arabic_numbers_converter/test/test_main.cpp.cpplint.out
-c4cf0382cbd9e859fbb6eac1d97c4bf2 cpplint.out/search-tree/application/app_main.cpp.cpplint.out
+6b4d732a71377747ca9f0041bbfc7bec cpplint.out/search-tree/application/app_main.cxx.cpplint.out
 2b6c5d571bb5dfe15ea15ce4216f550a cpplint.out/search-tree/include/SearchTree.h.cpplint.out
 8aa50b6b44537c82d20dc77706b8bd7e cpplint.out/search-tree/include/search-tree_app.h.cpplint.out
 b2b28b1b2ebd7e3d4e752c980e535efd cpplint.out/search-tree/src/SearchTree.cxx.cpplint.out

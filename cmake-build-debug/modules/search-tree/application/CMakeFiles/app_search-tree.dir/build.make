@@ -57,38 +57,38 @@ include modules/search-tree/application/CMakeFiles/app_search-tree.dir/progress.
 # Include the compile flags for this target's objects.
 include modules/search-tree/application/CMakeFiles/app_search-tree.dir/flags.make
 
-modules/search-tree/application/CMakeFiles/app_search-tree.dir/app_main.cpp.o: modules/search-tree/application/CMakeFiles/app_search-tree.dir/flags.make
-modules/search-tree/application/CMakeFiles/app_search-tree.dir/app_main.cpp.o: ../modules/search-tree/application/app_main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object modules/search-tree/application/CMakeFiles/app_search-tree.dir/app_main.cpp.o"
-	cd "/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/modules/search-tree/application" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/app_search-tree.dir/app_main.cpp.o -c "/home/altmetal/с++ projects/devtools-course-practice-1/modules/search-tree/application/app_main.cpp"
+modules/search-tree/application/CMakeFiles/app_search-tree.dir/app_main.cxx.o: modules/search-tree/application/CMakeFiles/app_search-tree.dir/flags.make
+modules/search-tree/application/CMakeFiles/app_search-tree.dir/app_main.cxx.o: ../modules/search-tree/application/app_main.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object modules/search-tree/application/CMakeFiles/app_search-tree.dir/app_main.cxx.o"
+	cd "/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/modules/search-tree/application" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/app_search-tree.dir/app_main.cxx.o -c "/home/altmetal/с++ projects/devtools-course-practice-1/modules/search-tree/application/app_main.cxx"
 
-modules/search-tree/application/CMakeFiles/app_search-tree.dir/app_main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/app_search-tree.dir/app_main.cpp.i"
-	cd "/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/modules/search-tree/application" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/altmetal/с++ projects/devtools-course-practice-1/modules/search-tree/application/app_main.cpp" > CMakeFiles/app_search-tree.dir/app_main.cpp.i
+modules/search-tree/application/CMakeFiles/app_search-tree.dir/app_main.cxx.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/app_search-tree.dir/app_main.cxx.i"
+	cd "/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/modules/search-tree/application" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/altmetal/с++ projects/devtools-course-practice-1/modules/search-tree/application/app_main.cxx" > CMakeFiles/app_search-tree.dir/app_main.cxx.i
 
-modules/search-tree/application/CMakeFiles/app_search-tree.dir/app_main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/app_search-tree.dir/app_main.cpp.s"
-	cd "/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/modules/search-tree/application" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/altmetal/с++ projects/devtools-course-practice-1/modules/search-tree/application/app_main.cpp" -o CMakeFiles/app_search-tree.dir/app_main.cpp.s
+modules/search-tree/application/CMakeFiles/app_search-tree.dir/app_main.cxx.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/app_search-tree.dir/app_main.cxx.s"
+	cd "/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/modules/search-tree/application" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/altmetal/с++ projects/devtools-course-practice-1/modules/search-tree/application/app_main.cxx" -o CMakeFiles/app_search-tree.dir/app_main.cxx.s
 
-modules/search-tree/application/CMakeFiles/app_search-tree.dir/app_main.cpp.o.requires:
+modules/search-tree/application/CMakeFiles/app_search-tree.dir/app_main.cxx.o.requires:
 
-.PHONY : modules/search-tree/application/CMakeFiles/app_search-tree.dir/app_main.cpp.o.requires
+.PHONY : modules/search-tree/application/CMakeFiles/app_search-tree.dir/app_main.cxx.o.requires
 
-modules/search-tree/application/CMakeFiles/app_search-tree.dir/app_main.cpp.o.provides: modules/search-tree/application/CMakeFiles/app_search-tree.dir/app_main.cpp.o.requires
-	$(MAKE) -f modules/search-tree/application/CMakeFiles/app_search-tree.dir/build.make modules/search-tree/application/CMakeFiles/app_search-tree.dir/app_main.cpp.o.provides.build
-.PHONY : modules/search-tree/application/CMakeFiles/app_search-tree.dir/app_main.cpp.o.provides
+modules/search-tree/application/CMakeFiles/app_search-tree.dir/app_main.cxx.o.provides: modules/search-tree/application/CMakeFiles/app_search-tree.dir/app_main.cxx.o.requires
+	$(MAKE) -f modules/search-tree/application/CMakeFiles/app_search-tree.dir/build.make modules/search-tree/application/CMakeFiles/app_search-tree.dir/app_main.cxx.o.provides.build
+.PHONY : modules/search-tree/application/CMakeFiles/app_search-tree.dir/app_main.cxx.o.provides
 
-modules/search-tree/application/CMakeFiles/app_search-tree.dir/app_main.cpp.o.provides.build: modules/search-tree/application/CMakeFiles/app_search-tree.dir/app_main.cpp.o
+modules/search-tree/application/CMakeFiles/app_search-tree.dir/app_main.cxx.o.provides.build: modules/search-tree/application/CMakeFiles/app_search-tree.dir/app_main.cxx.o
 
 
 # Object files for target app_search-tree
 app_search__tree_OBJECTS = \
-"CMakeFiles/app_search-tree.dir/app_main.cpp.o"
+"CMakeFiles/app_search-tree.dir/app_main.cxx.o"
 
 # External object files for target app_search-tree
 app_search__tree_EXTERNAL_OBJECTS =
 
-bin/search-tree: modules/search-tree/application/CMakeFiles/app_search-tree.dir/app_main.cpp.o
+bin/search-tree: modules/search-tree/application/CMakeFiles/app_search-tree.dir/app_main.cxx.o
 bin/search-tree: modules/search-tree/application/CMakeFiles/app_search-tree.dir/build.make
 bin/search-tree: lib/libsearch-tree.a
 bin/search-tree: lib/libgtest.a
@@ -101,7 +101,7 @@ modules/search-tree/application/CMakeFiles/app_search-tree.dir/build: bin/search
 
 .PHONY : modules/search-tree/application/CMakeFiles/app_search-tree.dir/build
 
-modules/search-tree/application/CMakeFiles/app_search-tree.dir/requires: modules/search-tree/application/CMakeFiles/app_search-tree.dir/app_main.cpp.o.requires
+modules/search-tree/application/CMakeFiles/app_search-tree.dir/requires: modules/search-tree/application/CMakeFiles/app_search-tree.dir/app_main.cxx.o.requires
 
 .PHONY : modules/search-tree/application/CMakeFiles/app_search-tree.dir/requires
 

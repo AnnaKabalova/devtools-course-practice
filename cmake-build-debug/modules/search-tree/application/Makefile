@@ -136,32 +136,32 @@ app_search-tree/fast:
 	cd "/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug" && $(MAKE) -f modules/search-tree/application/CMakeFiles/app_search-tree.dir/build.make modules/search-tree/application/CMakeFiles/app_search-tree.dir/build
 .PHONY : app_search-tree/fast
 
-app_main.o: app_main.cpp.o
+app_main.o: app_main.cxx.o
 
 .PHONY : app_main.o
 
 # target to build an object file
-app_main.cpp.o:
-	cd "/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug" && $(MAKE) -f modules/search-tree/application/CMakeFiles/app_search-tree.dir/build.make modules/search-tree/application/CMakeFiles/app_search-tree.dir/app_main.cpp.o
-.PHONY : app_main.cpp.o
+app_main.cxx.o:
+	cd "/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug" && $(MAKE) -f modules/search-tree/application/CMakeFiles/app_search-tree.dir/build.make modules/search-tree/application/CMakeFiles/app_search-tree.dir/app_main.cxx.o
+.PHONY : app_main.cxx.o
 
-app_main.i: app_main.cpp.i
+app_main.i: app_main.cxx.i
 
 .PHONY : app_main.i
 
 # target to preprocess a source file
-app_main.cpp.i:
-	cd "/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug" && $(MAKE) -f modules/search-tree/application/CMakeFiles/app_search-tree.dir/build.make modules/search-tree/application/CMakeFiles/app_search-tree.dir/app_main.cpp.i
-.PHONY : app_main.cpp.i
+app_main.cxx.i:
+	cd "/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug" && $(MAKE) -f modules/search-tree/application/CMakeFiles/app_search-tree.dir/build.make modules/search-tree/application/CMakeFiles/app_search-tree.dir/app_main.cxx.i
+.PHONY : app_main.cxx.i
 
-app_main.s: app_main.cpp.s
+app_main.s: app_main.cxx.s
 
 .PHONY : app_main.s
 
 # target to generate assembly for a file
-app_main.cpp.s:
-	cd "/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug" && $(MAKE) -f modules/search-tree/application/CMakeFiles/app_search-tree.dir/build.make modules/search-tree/application/CMakeFiles/app_search-tree.dir/app_main.cpp.s
-.PHONY : app_main.cpp.s
+app_main.cxx.s:
+	cd "/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug" && $(MAKE) -f modules/search-tree/application/CMakeFiles/app_search-tree.dir/build.make modules/search-tree/application/CMakeFiles/app_search-tree.dir/app_main.cxx.s
+.PHONY : app_main.cxx.s
 
 # Help Target
 help:
