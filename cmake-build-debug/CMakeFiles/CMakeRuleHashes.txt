@@ -123,6 +123,7 @@ b2b28b1b2ebd7e3d4e752c980e535efd cpplint.out/search-tree/src/SearchTree.cxx.cppl
 4743573689c141df43abca63e27bb9c7 cpplint.out/search-tree/src/search-tree_app.cxx.cpplint.out
 30b97aa517894a957cfc4edb7f0a0da9 cpplint.out/search-tree/test/test_main.cpp.cpplint.out
 c4d9bdc1e7ad06ed08bad4aca1742b46 cpplint.out/search-tree/test/test_search_tree.cpp.cpplint.out
+e37c158552b3291f2cab03518dc5c9bf cpplint.out/search-tree/test/test_search_tree_app.cpp.cpplint.out
 3683c67ab02b640e46df365597a9fbbe cpplint.out/stack/include/stack.h.cpplint.out
 7d0594374e308999fbb547c76c52c183 cpplint.out/stack/test/test_main.cpp.cpplint.out
 9d3c2e40677f4133e0a630c79bfece63 cpplint.out/stack/test/test_stack.cpp.cpplint.out

@@ -190,6 +190,33 @@ test_search_tree.cpp.s:
 	cd "/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug" && $(MAKE) -f modules/search-tree/test/CMakeFiles/test_search-tree.dir/build.make modules/search-tree/test/CMakeFiles/test_search-tree.dir/test_search_tree.cpp.s
 .PHONY : test_search_tree.cpp.s
 
+test_search_tree_app.o: test_search_tree_app.cpp.o
+
+.PHONY : test_search_tree_app.o
+
+# target to build an object file
+test_search_tree_app.cpp.o:
+	cd "/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug" && $(MAKE) -f modules/search-tree/test/CMakeFiles/test_search-tree.dir/build.make modules/search-tree/test/CMakeFiles/test_search-tree.dir/test_search_tree_app.cpp.o
+.PHONY : test_search_tree_app.cpp.o
+
+test_search_tree_app.i: test_search_tree_app.cpp.i
+
+.PHONY : test_search_tree_app.i
+
+# target to preprocess a source file
+test_search_tree_app.cpp.i:
+	cd "/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug" && $(MAKE) -f modules/search-tree/test/CMakeFiles/test_search-tree.dir/build.make modules/search-tree/test/CMakeFiles/test_search-tree.dir/test_search_tree_app.cpp.i
+.PHONY : test_search_tree_app.cpp.i
+
+test_search_tree_app.s: test_search_tree_app.cpp.s
+
+.PHONY : test_search_tree_app.s
+
+# target to generate assembly for a file
+test_search_tree_app.cpp.s:
+	cd "/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug" && $(MAKE) -f modules/search-tree/test/CMakeFiles/test_search-tree.dir/build.make modules/search-tree/test/CMakeFiles/test_search-tree.dir/test_search_tree_app.cpp.s
+.PHONY : test_search_tree_app.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -206,6 +233,9 @@ help:
 	@echo "... test_search_tree.o"
 	@echo "... test_search_tree.i"
 	@echo "... test_search_tree.s"
+	@echo "... test_search_tree_app.o"
+	@echo "... test_search_tree_app.i"
+	@echo "... test_search_tree_app.s"
 .PHONY : help
 
 

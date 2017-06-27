@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/altmetal/с++ projects/devtools-course-practice-1/modules/search-tree/test/test_main.cpp" "/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/modules/search-tree/test/CMakeFiles/test_search-tree.dir/test_main.cpp.o"
   "/home/altmetal/с++ projects/devtools-course-practice-1/modules/search-tree/test/test_search_tree.cpp" "/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/modules/search-tree/test/CMakeFiles/test_search-tree.dir/test_search_tree.cpp.o"
+  "/home/altmetal/с++ projects/devtools-course-practice-1/modules/search-tree/test/test_search_tree_app.cpp" "/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/modules/search-tree/test/CMakeFiles/test_search-tree.dir/test_search_tree_app.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

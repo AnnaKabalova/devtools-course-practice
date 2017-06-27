@@ -174,6 +174,7 @@ CMakeFiles/cpplint: cpplint.out/rom_arabic_numbers_converter/test/rom_to_arabic_
 CMakeFiles/cpplint: cpplint.out/rom_arabic_numbers_converter/test/test_main.cpp.cpplint.out
 CMakeFiles/cpplint: cpplint.out/search-tree/test/test_main.cpp.cpplint.out
 CMakeFiles/cpplint: cpplint.out/search-tree/test/test_search_tree.cpp.cpplint.out
+CMakeFiles/cpplint: cpplint.out/search-tree/test/test_search_tree_app.cpp.cpplint.out
 CMakeFiles/cpplint: cpplint.out/stack/test/test_main.cpp.cpplint.out
 CMakeFiles/cpplint: cpplint.out/stack/test/test_stack.cpp.cpplint.out
 CMakeFiles/cpplint: cpplint.out/triangle/src/triangle.cpp.cpplint.out
@@ -790,49 +791,54 @@ cpplint.out/search-tree/test/test_search_tree.cpp.cpplint.out: ../modules/search
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_122) "Perform code analysis via cpplint for search-tree/test/test_search_tree.cpp"
 	/opt/clion-2017.1.3/bin/cmake/bin/cmake -D PYTHON_EXECUTABLE=/usr/bin/python -D "CPPLINT_SCRIPT=/home/altmetal/с++ projects/devtools-course-practice-1/3rdparty/cpplint.py" -D "FILE=/home/altmetal/с++ projects/devtools-course-practice-1/modules/search-tree/test/test_search_tree.cpp" -D "OUT_FILE=/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/cpplint.out/search-tree/test/test_search_tree.cpp.cpplint.out" -P "/home/altmetal/с++ projects/devtools-course-practice-1/run_cpplint.cmake"
 
+cpplint.out/search-tree/test/test_search_tree_app.cpp.cpplint.out: ../run_cpplint.cmake
+cpplint.out/search-tree/test/test_search_tree_app.cpp.cpplint.out: ../modules/search-tree/test/test_search_tree_app.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_123) "Perform code analysis via cpplint for search-tree/test/test_search_tree_app.cpp"
+	/opt/clion-2017.1.3/bin/cmake/bin/cmake -D PYTHON_EXECUTABLE=/usr/bin/python -D "CPPLINT_SCRIPT=/home/altmetal/с++ projects/devtools-course-practice-1/3rdparty/cpplint.py" -D "FILE=/home/altmetal/с++ projects/devtools-course-practice-1/modules/search-tree/test/test_search_tree_app.cpp" -D "OUT_FILE=/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/cpplint.out/search-tree/test/test_search_tree_app.cpp.cpplint.out" -P "/home/altmetal/с++ projects/devtools-course-practice-1/run_cpplint.cmake"
+
 cpplint.out/stack/test/test_main.cpp.cpplint.out: ../run_cpplint.cmake
 cpplint.out/stack/test/test_main.cpp.cpplint.out: ../modules/stack/test/test_main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_123) "Perform code analysis via cpplint for stack/test/test_main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_124) "Perform code analysis via cpplint for stack/test/test_main.cpp"
 	/opt/clion-2017.1.3/bin/cmake/bin/cmake -D PYTHON_EXECUTABLE=/usr/bin/python -D "CPPLINT_SCRIPT=/home/altmetal/с++ projects/devtools-course-practice-1/3rdparty/cpplint.py" -D "FILE=/home/altmetal/с++ projects/devtools-course-practice-1/modules/stack/test/test_main.cpp" -D "OUT_FILE=/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/cpplint.out/stack/test/test_main.cpp.cpplint.out" -P "/home/altmetal/с++ projects/devtools-course-practice-1/run_cpplint.cmake"
 
 cpplint.out/stack/test/test_stack.cpp.cpplint.out: ../run_cpplint.cmake
 cpplint.out/stack/test/test_stack.cpp.cpplint.out: ../modules/stack/test/test_stack.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_124) "Perform code analysis via cpplint for stack/test/test_stack.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_125) "Perform code analysis via cpplint for stack/test/test_stack.cpp"
 	/opt/clion-2017.1.3/bin/cmake/bin/cmake -D PYTHON_EXECUTABLE=/usr/bin/python -D "CPPLINT_SCRIPT=/home/altmetal/с++ projects/devtools-course-practice-1/3rdparty/cpplint.py" -D "FILE=/home/altmetal/с++ projects/devtools-course-practice-1/modules/stack/test/test_stack.cpp" -D "OUT_FILE=/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/cpplint.out/stack/test/test_stack.cpp.cpplint.out" -P "/home/altmetal/с++ projects/devtools-course-practice-1/run_cpplint.cmake"
 
 cpplint.out/triangle/src/triangle.cpp.cpplint.out: ../run_cpplint.cmake
 cpplint.out/triangle/src/triangle.cpp.cpplint.out: ../modules/triangle/src/triangle.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_125) "Perform code analysis via cpplint for triangle/src/triangle.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_126) "Perform code analysis via cpplint for triangle/src/triangle.cpp"
 	/opt/clion-2017.1.3/bin/cmake/bin/cmake -D PYTHON_EXECUTABLE=/usr/bin/python -D "CPPLINT_SCRIPT=/home/altmetal/с++ projects/devtools-course-practice-1/3rdparty/cpplint.py" -D "FILE=/home/altmetal/с++ projects/devtools-course-practice-1/modules/triangle/src/triangle.cpp" -D "OUT_FILE=/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/cpplint.out/triangle/src/triangle.cpp.cpplint.out" -P "/home/altmetal/с++ projects/devtools-course-practice-1/run_cpplint.cmake"
 
 cpplint.out/triangle/test/test_main.cpp.cpplint.out: ../run_cpplint.cmake
 cpplint.out/triangle/test/test_main.cpp.cpplint.out: ../modules/triangle/test/test_main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_126) "Perform code analysis via cpplint for triangle/test/test_main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_127) "Perform code analysis via cpplint for triangle/test/test_main.cpp"
 	/opt/clion-2017.1.3/bin/cmake/bin/cmake -D PYTHON_EXECUTABLE=/usr/bin/python -D "CPPLINT_SCRIPT=/home/altmetal/с++ projects/devtools-course-practice-1/3rdparty/cpplint.py" -D "FILE=/home/altmetal/с++ projects/devtools-course-practice-1/modules/triangle/test/test_main.cpp" -D "OUT_FILE=/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/cpplint.out/triangle/test/test_main.cpp.cpplint.out" -P "/home/altmetal/с++ projects/devtools-course-practice-1/run_cpplint.cmake"
 
 cpplint.out/triangle/test/test_triangle.cpp.cpplint.out: ../run_cpplint.cmake
 cpplint.out/triangle/test/test_triangle.cpp.cpplint.out: ../modules/triangle/test/test_triangle.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_127) "Perform code analysis via cpplint for triangle/test/test_triangle.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_128) "Perform code analysis via cpplint for triangle/test/test_triangle.cpp"
 	/opt/clion-2017.1.3/bin/cmake/bin/cmake -D PYTHON_EXECUTABLE=/usr/bin/python -D "CPPLINT_SCRIPT=/home/altmetal/с++ projects/devtools-course-practice-1/3rdparty/cpplint.py" -D "FILE=/home/altmetal/с++ projects/devtools-course-practice-1/modules/triangle/test/test_triangle.cpp" -D "OUT_FILE=/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/cpplint.out/triangle/test/test_triangle.cpp.cpplint.out" -P "/home/altmetal/с++ projects/devtools-course-practice-1/run_cpplint.cmake"
 
 cpplint.out/line_plane_intersec/src/line_plane_intersec.cxx.cpplint.out: ../run_cpplint.cmake
 cpplint.out/line_plane_intersec/src/line_plane_intersec.cxx.cpplint.out: ../modules/line_plane_intersec/src/line_plane_intersec.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_128) "Perform code analysis via cpplint for line_plane_intersec/src/line_plane_intersec.cxx"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_129) "Perform code analysis via cpplint for line_plane_intersec/src/line_plane_intersec.cxx"
 	/opt/clion-2017.1.3/bin/cmake/bin/cmake -D PYTHON_EXECUTABLE=/usr/bin/python -D "CPPLINT_SCRIPT=/home/altmetal/с++ projects/devtools-course-practice-1/3rdparty/cpplint.py" -D "FILE=/home/altmetal/с++ projects/devtools-course-practice-1/modules/line_plane_intersec/src/line_plane_intersec.cxx" -D "OUT_FILE=/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/cpplint.out/line_plane_intersec/src/line_plane_intersec.cxx.cpplint.out" -P "/home/altmetal/с++ projects/devtools-course-practice-1/run_cpplint.cmake"
 
 cpplint.out/search-tree/application/app_main.cxx.cpplint.out: ../run_cpplint.cmake
 cpplint.out/search-tree/application/app_main.cxx.cpplint.out: ../modules/search-tree/application/app_main.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_129) "Perform code analysis via cpplint for search-tree/application/app_main.cxx"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_130) "Perform code analysis via cpplint for search-tree/application/app_main.cxx"
 	/opt/clion-2017.1.3/bin/cmake/bin/cmake -D PYTHON_EXECUTABLE=/usr/bin/python -D "CPPLINT_SCRIPT=/home/altmetal/с++ projects/devtools-course-practice-1/3rdparty/cpplint.py" -D "FILE=/home/altmetal/с++ projects/devtools-course-practice-1/modules/search-tree/application/app_main.cxx" -D "OUT_FILE=/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/cpplint.out/search-tree/application/app_main.cxx.cpplint.out" -P "/home/altmetal/с++ projects/devtools-course-practice-1/run_cpplint.cmake"
 
 cpplint.out/search-tree/src/SearchTree.cxx.cpplint.out: ../run_cpplint.cmake
 cpplint.out/search-tree/src/SearchTree.cxx.cpplint.out: ../modules/search-tree/src/SearchTree.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_130) "Perform code analysis via cpplint for search-tree/src/SearchTree.cxx"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_131) "Perform code analysis via cpplint for search-tree/src/SearchTree.cxx"
 	/opt/clion-2017.1.3/bin/cmake/bin/cmake -D PYTHON_EXECUTABLE=/usr/bin/python -D "CPPLINT_SCRIPT=/home/altmetal/с++ projects/devtools-course-practice-1/3rdparty/cpplint.py" -D "FILE=/home/altmetal/с++ projects/devtools-course-practice-1/modules/search-tree/src/SearchTree.cxx" -D "OUT_FILE=/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/cpplint.out/search-tree/src/SearchTree.cxx.cpplint.out" -P "/home/altmetal/с++ projects/devtools-course-practice-1/run_cpplint.cmake"
 
 cpplint.out/search-tree/src/search-tree_app.cxx.cpplint.out: ../run_cpplint.cmake
 cpplint.out/search-tree/src/search-tree_app.cxx.cpplint.out: ../modules/search-tree/src/search-tree_app.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_131) "Perform code analysis via cpplint for search-tree/src/search-tree_app.cxx"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_132) "Perform code analysis via cpplint for search-tree/src/search-tree_app.cxx"
 	/opt/clion-2017.1.3/bin/cmake/bin/cmake -D PYTHON_EXECUTABLE=/usr/bin/python -D "CPPLINT_SCRIPT=/home/altmetal/с++ projects/devtools-course-practice-1/3rdparty/cpplint.py" -D "FILE=/home/altmetal/с++ projects/devtools-course-practice-1/modules/search-tree/src/search-tree_app.cxx" -D "OUT_FILE=/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/cpplint.out/search-tree/src/search-tree_app.cxx.cpplint.out" -P "/home/altmetal/с++ projects/devtools-course-practice-1/run_cpplint.cmake"
 
 cpplint: CMakeFiles/cpplint
@@ -957,6 +963,7 @@ cpplint: cpplint.out/rom_arabic_numbers_converter/test/rom_to_arabic_test.cpp.cp
 cpplint: cpplint.out/rom_arabic_numbers_converter/test/test_main.cpp.cpplint.out
 cpplint: cpplint.out/search-tree/test/test_main.cpp.cpplint.out
 cpplint: cpplint.out/search-tree/test/test_search_tree.cpp.cpplint.out
+cpplint: cpplint.out/search-tree/test/test_search_tree_app.cpp.cpplint.out
 cpplint: cpplint.out/stack/test/test_main.cpp.cpplint.out
 cpplint: cpplint.out/stack/test/test_stack.cpp.cpplint.out
 cpplint: cpplint.out/triangle/src/triangle.cpp.cpplint.out

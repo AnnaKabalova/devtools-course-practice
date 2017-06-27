@@ -138,6 +138,16 @@ vector
 
 ../modules/search-tree/./include/SearchTree.h
 
+/home/altmetal/с++ projects/devtools-course-practice-1/modules/search-tree/include/./SearchTree.h
+
+/home/altmetal/с++ projects/devtools-course-practice-1/modules/search-tree/include/search-tree_app.h
+string
+-
+vector
+-
+./SearchTree.h
+/home/altmetal/с++ projects/devtools-course-practice-1/modules/search-tree/include/./SearchTree.h
+
 /home/altmetal/с++ projects/devtools-course-practice-1/modules/search-tree/test/test_main.cpp
 gtest/gtest.h
 -
@@ -147,4 +157,10 @@ gtest/gtest.h
 -
 include/SearchTree.h
 /home/altmetal/с++ projects/devtools-course-practice-1/modules/search-tree/test/include/SearchTree.h
+
+/home/altmetal/с++ projects/devtools-course-practice-1/modules/search-tree/test/test_search_tree_app.cpp
+gtest/gtest.h
+-
+../include/search-tree_app.h
+/home/altmetal/с++ projects/devtools-course-practice-1/modules/search-tree/include/search-tree_app.h
 

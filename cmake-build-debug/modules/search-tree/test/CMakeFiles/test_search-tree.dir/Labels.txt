@@ -8,3 +8,6 @@
 /home/altmetal/с++ projects/devtools-course-practice-1/modules/search-tree/test/test_search_tree.cpp
  search-tree
  Test
+/home/altmetal/с++ projects/devtools-course-practice-1/modules/search-tree/test/test_search_tree_app.cpp
+ search-tree
+ Test

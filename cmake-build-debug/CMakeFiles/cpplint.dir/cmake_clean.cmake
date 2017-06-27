@@ -121,6 +121,7 @@ file(REMOVE_RECURSE
   "cpplint.out/rom_arabic_numbers_converter/test/test_main.cpp.cpplint.out"
   "cpplint.out/search-tree/test/test_main.cpp.cpplint.out"
   "cpplint.out/search-tree/test/test_search_tree.cpp.cpplint.out"
+  "cpplint.out/search-tree/test/test_search_tree_app.cpp.cpplint.out"
   "cpplint.out/stack/test/test_main.cpp.cpplint.out"
   "cpplint.out/stack/test/test_stack.cpp.cpplint.out"
   "cpplint.out/triangle/src/triangle.cpp.cpplint.out"

@@ -324,7 +324,7 @@ modules/area-of-three-dimensional-figures/src/preinstall:
 modules/area-of-three-dimensional-figures/src/CMakeFiles/lib_area-of-three-dimensional-figures.dir/all: 3rdparty/gtest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f modules/area-of-three-dimensional-figures/src/CMakeFiles/lib_area-of-three-dimensional-figures.dir/build.make modules/area-of-three-dimensional-figures/src/CMakeFiles/lib_area-of-three-dimensional-figures.dir/depend
 	$(MAKE) -f modules/area-of-three-dimensional-figures/src/CMakeFiles/lib_area-of-three-dimensional-figures.dir/build.make modules/area-of-three-dimensional-figures/src/CMakeFiles/lib_area-of-three-dimensional-figures.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/CMakeFiles" --progress-num=52 "Built target lib_area-of-three-dimensional-figures"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/CMakeFiles" --progress-num= "Built target lib_area-of-three-dimensional-figures"
 .PHONY : modules/area-of-three-dimensional-figures/src/CMakeFiles/lib_area-of-three-dimensional-figures.dir/all
 
 # Include target in all.
@@ -334,7 +334,7 @@ all: modules/area-of-three-dimensional-figures/src/CMakeFiles/lib_area-of-three-
 
 # Build rule for subdir invocation for target.
 modules/area-of-three-dimensional-figures/src/CMakeFiles/lib_area-of-three-dimensional-figures.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/CMakeFiles" 1
 	$(MAKE) -f CMakeFiles/Makefile2 modules/area-of-three-dimensional-figures/src/CMakeFiles/lib_area-of-three-dimensional-figures.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/CMakeFiles" 0
 .PHONY : modules/area-of-three-dimensional-figures/src/CMakeFiles/lib_area-of-three-dimensional-figures.dir/rule
@@ -390,7 +390,7 @@ all: modules/area-of-three-dimensional-figures/test/CMakeFiles/test_area-of-thre
 
 # Build rule for subdir invocation for target.
 modules/area-of-three-dimensional-figures/test/CMakeFiles/test_area-of-three-dimensional-figures.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/CMakeFiles" 3
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/CMakeFiles" 2
 	$(MAKE) -f CMakeFiles/Makefile2 modules/area-of-three-dimensional-figures/test/CMakeFiles/test_area-of-three-dimensional-figures.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/CMakeFiles" 0
 .PHONY : modules/area-of-three-dimensional-figures/test/CMakeFiles/test_area-of-three-dimensional-figures.dir/rule
@@ -456,7 +456,7 @@ modules/arithmetic-parser/src/preinstall:
 modules/arithmetic-parser/src/CMakeFiles/lib_arithmetic-parser.dir/all: 3rdparty/gtest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f modules/arithmetic-parser/src/CMakeFiles/lib_arithmetic-parser.dir/build.make modules/arithmetic-parser/src/CMakeFiles/lib_arithmetic-parser.dir/depend
 	$(MAKE) -f modules/arithmetic-parser/src/CMakeFiles/lib_arithmetic-parser.dir/build.make modules/arithmetic-parser/src/CMakeFiles/lib_arithmetic-parser.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/CMakeFiles" --progress-num= "Built target lib_arithmetic-parser"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/CMakeFiles" --progress-num=52 "Built target lib_arithmetic-parser"
 .PHONY : modules/arithmetic-parser/src/CMakeFiles/lib_arithmetic-parser.dir/all
 
 # Include target in all.
@@ -466,7 +466,7 @@ all: modules/arithmetic-parser/src/CMakeFiles/lib_arithmetic-parser.dir/all
 
 # Build rule for subdir invocation for target.
 modules/arithmetic-parser/src/CMakeFiles/lib_arithmetic-parser.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/CMakeFiles" 1
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/CMakeFiles" 2
 	$(MAKE) -f CMakeFiles/Makefile2 modules/arithmetic-parser/src/CMakeFiles/lib_arithmetic-parser.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/CMakeFiles" 0
 .PHONY : modules/arithmetic-parser/src/CMakeFiles/lib_arithmetic-parser.dir/rule
@@ -522,7 +522,7 @@ all: modules/arithmetic-parser/test/CMakeFiles/test_arithmetic-parser.dir/all
 
 # Build rule for subdir invocation for target.
 modules/arithmetic-parser/test/CMakeFiles/test_arithmetic-parser.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/CMakeFiles" 3
 	$(MAKE) -f CMakeFiles/Makefile2 modules/arithmetic-parser/test/CMakeFiles/test_arithmetic-parser.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/CMakeFiles" 0
 .PHONY : modules/arithmetic-parser/test/CMakeFiles/test_arithmetic-parser.dir/rule
@@ -644,7 +644,7 @@ modules/bit-array/test/CMakeFiles/test_bit-array.dir/all: 3rdparty/gtest/CMakeFi
 modules/bit-array/test/CMakeFiles/test_bit-array.dir/all: modules/bit-array/src/CMakeFiles/lib_bit-array.dir/all
 	$(MAKE) -f modules/bit-array/test/CMakeFiles/test_bit-array.dir/build.make modules/bit-array/test/CMakeFiles/test_bit-array.dir/depend
 	$(MAKE) -f modules/bit-array/test/CMakeFiles/test_bit-array.dir/build.make modules/bit-array/test/CMakeFiles/test_bit-array.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/CMakeFiles" --progress-num=67,68 "Built target test_bit-array"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/CMakeFiles" --progress-num=67 "Built target test_bit-array"
 .PHONY : modules/bit-array/test/CMakeFiles/test_bit-array.dir/all
 
 # Include target in all.
@@ -654,7 +654,7 @@ all: modules/bit-array/test/CMakeFiles/test_bit-array.dir/all
 
 # Build rule for subdir invocation for target.
 modules/bit-array/test/CMakeFiles/test_bit-array.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/CMakeFiles" 4
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/CMakeFiles" 3
 	$(MAKE) -f CMakeFiles/Makefile2 modules/bit-array/test/CMakeFiles/test_bit-array.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/CMakeFiles" 0
 .PHONY : modules/bit-array/test/CMakeFiles/test_bit-array.dir/rule
@@ -776,7 +776,7 @@ modules/color-spaces/test/CMakeFiles/test_color-spaces.dir/all: 3rdparty/gtest/C
 modules/color-spaces/test/CMakeFiles/test_color-spaces.dir/all: modules/color-spaces/src/CMakeFiles/lib_color-spaces.dir/all
 	$(MAKE) -f modules/color-spaces/test/CMakeFiles/test_color-spaces.dir/build.make modules/color-spaces/test/CMakeFiles/test_color-spaces.dir/depend
 	$(MAKE) -f modules/color-spaces/test/CMakeFiles/test_color-spaces.dir/build.make modules/color-spaces/test/CMakeFiles/test_color-spaces.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/CMakeFiles" --progress-num=69,70 "Built target test_color-spaces"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/CMakeFiles" --progress-num=68,69,70 "Built target test_color-spaces"
 .PHONY : modules/color-spaces/test/CMakeFiles/test_color-spaces.dir/all
 
 # Include target in all.
@@ -786,7 +786,7 @@ all: modules/color-spaces/test/CMakeFiles/test_color-spaces.dir/all
 
 # Build rule for subdir invocation for target.
 modules/color-spaces/test/CMakeFiles/test_color-spaces.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/CMakeFiles" 5
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/CMakeFiles" 6
 	$(MAKE) -f CMakeFiles/Makefile2 modules/color-spaces/test/CMakeFiles/test_color-spaces.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/CMakeFiles" 0
 .PHONY : modules/color-spaces/test/CMakeFiles/test_color-spaces.dir/rule
@@ -1422,7 +1422,7 @@ modules/huffman-algoritm/test/CMakeFiles/test_huffman-algoritm.dir/all: 3rdparty
 modules/huffman-algoritm/test/CMakeFiles/test_huffman-algoritm.dir/all: modules/huffman-algoritm/src/CMakeFiles/lib_huffman-algoritm.dir/all
 	$(MAKE) -f modules/huffman-algoritm/test/CMakeFiles/test_huffman-algoritm.dir/build.make modules/huffman-algoritm/test/CMakeFiles/test_huffman-algoritm.dir/depend
 	$(MAKE) -f modules/huffman-algoritm/test/CMakeFiles/test_huffman-algoritm.dir/build.make modules/huffman-algoritm/test/CMakeFiles/test_huffman-algoritm.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/CMakeFiles" --progress-num=91,92 "Built target test_huffman-algoritm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/CMakeFiles" --progress-num=91 "Built target test_huffman-algoritm"
 .PHONY : modules/huffman-algoritm/test/CMakeFiles/test_huffman-algoritm.dir/all
 
 # Include target in all.
@@ -1432,7 +1432,7 @@ all: modules/huffman-algoritm/test/CMakeFiles/test_huffman-algoritm.dir/all
 
 # Build rule for subdir invocation for target.
 modules/huffman-algoritm/test/CMakeFiles/test_huffman-algoritm.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/CMakeFiles" 3
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/CMakeFiles" 2
 	$(MAKE) -f CMakeFiles/Makefile2 modules/huffman-algoritm/test/CMakeFiles/test_huffman-algoritm.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/CMakeFiles" 0
 .PHONY : modules/huffman-algoritm/test/CMakeFiles/test_huffman-algoritm.dir/rule
@@ -1554,7 +1554,7 @@ modules/length_converter/test/CMakeFiles/test_length_converter.dir/all: 3rdparty
 modules/length_converter/test/CMakeFiles/test_length_converter.dir/all: modules/length_converter/src/CMakeFiles/lib_length_converter.dir/all
 	$(MAKE) -f modules/length_converter/test/CMakeFiles/test_length_converter.dir/build.make modules/length_converter/test/CMakeFiles/test_length_converter.dir/depend
 	$(MAKE) -f modules/length_converter/test/CMakeFiles/test_length_converter.dir/build.make modules/length_converter/test/CMakeFiles/test_length_converter.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/CMakeFiles" --progress-num=93 "Built target test_length_converter"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/CMakeFiles" --progress-num=92 "Built target test_length_converter"
 .PHONY : modules/length_converter/test/CMakeFiles/test_length_converter.dir/all
 
 # Include target in all.
@@ -1686,7 +1686,7 @@ modules/line_plane_intersec/test/CMakeFiles/test_line_plane_intersec.dir/all: 3r
 modules/line_plane_intersec/test/CMakeFiles/test_line_plane_intersec.dir/all: modules/line_plane_intersec/src/CMakeFiles/lib_line_plane_intersec.dir/all
 	$(MAKE) -f modules/line_plane_intersec/test/CMakeFiles/test_line_plane_intersec.dir/build.make modules/line_plane_intersec/test/CMakeFiles/test_line_plane_intersec.dir/depend
 	$(MAKE) -f modules/line_plane_intersec/test/CMakeFiles/test_line_plane_intersec.dir/build.make modules/line_plane_intersec/test/CMakeFiles/test_line_plane_intersec.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/CMakeFiles" --progress-num=94 "Built target test_line_plane_intersec"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/CMakeFiles" --progress-num=93 "Built target test_line_plane_intersec"
 .PHONY : modules/line_plane_intersec/test/CMakeFiles/test_line_plane_intersec.dir/all
 
 # Include target in all.
@@ -1819,7 +1819,7 @@ modules/quadratic-equation/test/CMakeFiles/test_quadratic-equation.dir/all: modu
 modules/quadratic-equation/test/CMakeFiles/test_quadratic-equation.dir/all: modules/quadratic-equation/src/CMakeFiles/lib_quadratic-equation.dir/all
 	$(MAKE) -f modules/quadratic-equation/test/CMakeFiles/test_quadratic-equation.dir/build.make modules/quadratic-equation/test/CMakeFiles/test_quadratic-equation.dir/depend
 	$(MAKE) -f modules/quadratic-equation/test/CMakeFiles/test_quadratic-equation.dir/build.make modules/quadratic-equation/test/CMakeFiles/test_quadratic-equation.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/CMakeFiles" --progress-num=95 "Built target test_quadratic-equation"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/CMakeFiles" --progress-num=94 "Built target test_quadratic-equation"
 .PHONY : modules/quadratic-equation/test/CMakeFiles/test_quadratic-equation.dir/all
 
 # Include target in all.
@@ -1951,7 +1951,7 @@ modules/rom_arabic_numbers_converter/test/CMakeFiles/test_rom_arabic_numbers_con
 modules/rom_arabic_numbers_converter/test/CMakeFiles/test_rom_arabic_numbers_converter.dir/all: modules/rom_arabic_numbers_converter/src/CMakeFiles/lib_rom_arabic_numbers_converter.dir/all
 	$(MAKE) -f modules/rom_arabic_numbers_converter/test/CMakeFiles/test_rom_arabic_numbers_converter.dir/build.make modules/rom_arabic_numbers_converter/test/CMakeFiles/test_rom_arabic_numbers_converter.dir/depend
 	$(MAKE) -f modules/rom_arabic_numbers_converter/test/CMakeFiles/test_rom_arabic_numbers_converter.dir/build.make modules/rom_arabic_numbers_converter/test/CMakeFiles/test_rom_arabic_numbers_converter.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/CMakeFiles" --progress-num=96 "Built target test_rom_arabic_numbers_converter"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/CMakeFiles" --progress-num=95,96 "Built target test_rom_arabic_numbers_converter"
 .PHONY : modules/rom_arabic_numbers_converter/test/CMakeFiles/test_rom_arabic_numbers_converter.dir/all
 
 # Include target in all.
@@ -1961,7 +1961,7 @@ all: modules/rom_arabic_numbers_converter/test/CMakeFiles/test_rom_arabic_number
 
 # Build rule for subdir invocation for target.
 modules/rom_arabic_numbers_converter/test/CMakeFiles/test_rom_arabic_numbers_converter.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/CMakeFiles" 3
 	$(MAKE) -f CMakeFiles/Makefile2 modules/rom_arabic_numbers_converter/test/CMakeFiles/test_rom_arabic_numbers_converter.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/CMakeFiles" 0
 .PHONY : modules/rom_arabic_numbers_converter/test/CMakeFiles/test_rom_arabic_numbers_converter.dir/rule

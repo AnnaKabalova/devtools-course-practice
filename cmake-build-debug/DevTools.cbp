@@ -2301,6 +2301,10 @@
 			<Option target="cpplint"/>
 			<Option target="test_search-tree"/>
 		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/search-tree/test/test_search_tree_app.cpp">
+			<Option target="cpplint"/>
+			<Option target="test_search-tree"/>
+		</Unit>
 		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/stack/include/stack.h">
 			<Option target="cpplint"/>
 		</Unit>
