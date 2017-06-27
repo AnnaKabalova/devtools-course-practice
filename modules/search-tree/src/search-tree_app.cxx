@@ -60,7 +60,7 @@ std::string SearchTreeApplication::operator()(int argc, const char **argv) {
     }
     else
         _message = "Wrong act!";
-    
+
     return _message;
 }
 

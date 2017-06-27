@@ -4,7 +4,6 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/altmetal/с++ projects/devtools-course-practice-1/modules/search-tree/application/app_main.cpp" "/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/modules/search-tree/test/CMakeFiles/test_search-tree.dir/__/application/app_main.cpp.o"
   "/home/altmetal/с++ projects/devtools-course-practice-1/modules/search-tree/test/test_main.cpp" "/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/modules/search-tree/test/CMakeFiles/test_search-tree.dir/test_main.cpp.o"
   "/home/altmetal/с++ projects/devtools-course-practice-1/modules/search-tree/test/test_search_tree.cpp" "/home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug/modules/search-tree/test/CMakeFiles/test_search-tree.dir/test_search_tree.cpp.o"
   )

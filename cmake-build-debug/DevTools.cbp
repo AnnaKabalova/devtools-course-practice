@@ -2225,7 +2225,6 @@
 		</Unit>
 		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/search-tree/application/app_main.cpp">
 			<Option target="cpplint"/>
-			<Option target="test_search-tree"/>
 		</Unit>
 		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/search-tree/include/SearchTree.h">
 			<Option target="cpplint"/>
@@ -2234,7 +2233,6 @@
 		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/search-tree/include/search-tree_app.h">
 			<Option target="cpplint"/>
 			<Option target="lib_search-tree"/>
-			<Option target="test_search-tree"/>
 		</Unit>
 		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/search-tree/src/SearchTree.cxx">
 			<Option target="cpplint"/>

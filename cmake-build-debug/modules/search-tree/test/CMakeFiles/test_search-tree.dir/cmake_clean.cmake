@@ -1,7 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/test_search-tree.dir/test_main.cpp.o"
   "CMakeFiles/test_search-tree.dir/test_search_tree.cpp.o"
-  "CMakeFiles/test_search-tree.dir/__/application/app_main.cpp.o"
   "../../../lib/test_search-tree.pdb"
   "../../../bin/test_search-tree"
 )

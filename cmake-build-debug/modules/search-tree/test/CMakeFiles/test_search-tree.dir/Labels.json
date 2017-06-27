@@ -11,14 +11,6 @@
 		{
 			"file" : "/home/altmetal/с++ projects/devtools-course-practice-1/modules/search-tree/test/test_search_tree.cpp",
 			"labels" : [ "search-tree", "Test" ]
-		},
-		
-		{
-			"file" : "/home/altmetal/с++ projects/devtools-course-practice-1/modules/search-tree/include/search-tree_app.h"
-		},
-		
-		{
-			"file" : "/home/altmetal/с++ projects/devtools-course-practice-1/modules/search-tree/application/app_main.cpp"
 		}
 	],
 	"target" : 

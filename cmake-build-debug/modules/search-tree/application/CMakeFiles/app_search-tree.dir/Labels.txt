@@ -1,0 +1,7 @@
+# Target labels
+ search-tree
+ Application
+# Source files and their labels
+/home/altmetal/с++ projects/devtools-course-practice-1/modules/search-tree/application/app_main.cpp
+ search-tree
+ Application

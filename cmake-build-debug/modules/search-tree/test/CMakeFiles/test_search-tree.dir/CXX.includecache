@@ -138,8 +138,6 @@ vector
 
 ../modules/search-tree/./include/SearchTree.h
 
-/home/altmetal/с++ projects/devtools-course-practice-1/modules/search-tree/application/app_main.cpp
-
 /home/altmetal/с++ projects/devtools-course-practice-1/modules/search-tree/test/test_main.cpp
 gtest/gtest.h
 -
