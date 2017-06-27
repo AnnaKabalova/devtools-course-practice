@@ -1,1 +1,0 @@
-/usr/bin/c++   -std=c++11 -Wall -Werror -g   CMakeFiles/test_line_plane_intersec.dir/test_line_plane_intersec.cpp.o CMakeFiles/test_line_plane_intersec.dir/test_main.cpp.o  -o ../../../bin/test_line_plane_intersec -rdynamic ../../../lib/libgtest.a -lpthread ../../../lib/libgtest.a ../../../lib/libline_plane_intersec.a ../../../lib/libgtest.a 

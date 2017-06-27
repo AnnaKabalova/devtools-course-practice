@@ -1,1 +1,0 @@
-/usr/bin/c++   -std=c++11 -Wall -Werror -g   CMakeFiles/test_arithmetic-parser.dir/test_arithmetic_parser.cpp.o CMakeFiles/test_arithmetic-parser.dir/test_main.cpp.o  -o ../../../bin/test_arithmetic-parser -rdynamic ../../../lib/libgtest.a -lpthread ../../../lib/libgtest.a ../../../lib/libarithmetic-parser.a ../../../lib/libgtest.a 

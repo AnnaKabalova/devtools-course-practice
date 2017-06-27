@@ -1,1 +1,0 @@
-/usr/bin/c++   -std=c++11 -Wall -Werror -g   CMakeFiles/test_credit-calculator.dir/test_credit_calculator.cpp.o CMakeFiles/test_credit-calculator.dir/test_main.cpp.o  -o ../../../bin/test_credit-calculator -rdynamic ../../../lib/libgtest.a -lpthread ../../../lib/libgtest.a ../../../lib/libcredit-calculator.a ../../../lib/libgtest.a 

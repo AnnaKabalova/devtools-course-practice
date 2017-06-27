@@ -1,1 +1,0 @@
-/usr/bin/c++   -std=c++11 -Wall -Werror -g   CMakeFiles/test_Sort.dir/test_Sort.cpp.o CMakeFiles/test_Sort.dir/test_main.cpp.o  -o ../../../bin/test_Sort -rdynamic ../../../lib/libgtest.a -lpthread ../../../lib/libgtest.a ../../../lib/libSort.a ../../../lib/libgtest.a 

@@ -1,2 +1,0 @@
-/usr/bin/ar qc ../../../lib/libbit-array.a  CMakeFiles/lib_bit-array.dir/bit_array.cpp.o
-/usr/bin/ranlib ../../../lib/libbit-array.a

@@ -1,7 +1,0 @@
-# Target labels
- complex-number
- Application
-# Source files and their labels
-/home/altmetal/с++ projects/devtools-course-practice-1/modules/complex-number/application/complex-number.cpp
- complex-number
- Application

@@ -1,2 +1,0 @@
-/usr/bin/ar qc ../../../lib/libfraction.a  CMakeFiles/lib_fraction.dir/fraction.cpp.o CMakeFiles/lib_fraction.dir/fraction_calculator.cpp.o
-/usr/bin/ranlib ../../../lib/libfraction.a

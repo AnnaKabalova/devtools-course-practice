@@ -1,2 +1,0 @@
-/usr/bin/ar qc ../../../lib/libsearch-tree.a  CMakeFiles/lib_search-tree.dir/SearchTree.cxx.o CMakeFiles/lib_search-tree.dir/search-tree_app.cxx.o
-/usr/bin/ranlib ../../../lib/libsearch-tree.a

@@ -1,2 +1,0 @@
-/usr/bin/ar qc ../../../lib/libhuffman-algoritm.a  CMakeFiles/lib_huffman-algoritm.dir/huffman.cpp.o
-/usr/bin/ranlib ../../../lib/libhuffman-algoritm.a

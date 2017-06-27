@@ -1,1 +1,0 @@
-/usr/bin/c++   -std=c++11 -Wall -Werror -g   CMakeFiles/app_fraction.dir/fractioncalc.cpp.o  -o ../../../bin/fraction -rdynamic ../../../lib/libfraction.a ../../../lib/libgtest.a 

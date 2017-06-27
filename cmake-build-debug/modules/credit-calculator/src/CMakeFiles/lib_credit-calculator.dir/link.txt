@@ -1,2 +1,0 @@
-/usr/bin/ar qc ../../../lib/libcredit-calculator.a  CMakeFiles/lib_credit-calculator.dir/credit_calculator.cpp.o
-/usr/bin/ranlib ../../../lib/libcredit-calculator.a

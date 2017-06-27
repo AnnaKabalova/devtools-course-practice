@@ -1,2 +1,0 @@
-/usr/bin/ar qc ../../../lib/librom_arabic_numbers_converter.a  CMakeFiles/lib_rom_arabic_numbers_converter.dir/rom_numbers_converter.cpp.o
-/usr/bin/ranlib ../../../lib/librom_arabic_numbers_converter.a

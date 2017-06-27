@@ -1,1 +1,0 @@
-/usr/bin/c++   -std=c++11 -Wall -Werror -g   CMakeFiles/test_bit-array.dir/test_grachev_vlad_bit_array.cpp.o CMakeFiles/test_bit-array.dir/test_main.cpp.o  -o ../../../bin/test_bit-array -rdynamic ../../../lib/libgtest.a -lpthread ../../../lib/libgtest.a ../../../lib/libbit-array.a ../../../lib/libgtest.a 
