@@ -81,7 +81,7 @@ TEST_F(SearchTreeApplication_Test, Can_Find_Max) {
 
     Assert("The maximal element is 3");
 }
-/*
+
 TEST_F(SearchTreeApplication_Test, Can_Find_Elem) {
     vector<string> args = { "3",
                             "FIND",
@@ -90,9 +90,9 @@ TEST_F(SearchTreeApplication_Test, Can_Find_Elem) {
 
     Act(args);
 
-    Assert("The searched element found! (2.000000)");
+    Assert("The searched element found!");
 }
-*/
+
 TEST_F(SearchTreeApplication_Test, Print_Error_If_Element_Not_In_Tree) {
     vector<string> args = { "3",
                             "FIND",

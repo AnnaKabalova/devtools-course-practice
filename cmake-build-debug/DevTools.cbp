@@ -2473,6 +2473,9 @@
 		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/search-tree/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\modules\search-tree\"/>
 		</Unit>
+		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/search-tree/CTestTests.txt">
+			<Option virtualFolder="CMake Files\modules\search-tree\"/>
+		</Unit>
 		<Unit filename="/home/altmetal/с++ projects/devtools-course-practice-1/modules/search-tree/src/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\modules\search-tree\src\"/>
 		</Unit>

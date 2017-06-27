@@ -56,6 +56,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../modules/rom_arabic_numbers_converter/src/CMakeLists.txt"
   "../modules/rom_arabic_numbers_converter/test/CMakeLists.txt"
   "../modules/search-tree/CMakeLists.txt"
+  "../modules/search-tree/CTestTests.txt"
   "../modules/search-tree/application/CMakeLists.txt"
   "../modules/search-tree/src/CMakeLists.txt"
   "../modules/search-tree/test/CMakeLists.txt"

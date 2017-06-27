@@ -42,8 +42,8 @@ std::string SearchTreeApplication::operator()(int argc, const char **argv) {
                 _message = "The maximal element is " + std::to_string(node->key);
             } else if (arg._act == "FIND") {
                 node = tree->Search(arg._search_elem);
-                if (node != (Node *) 0)
-                    _message = "The searched element found! (" + std::to_string(node->key) + ")";
+                if (node != (Node *) 0) {
+                    _message = "The searched element found!";}
                 else
                     _message = "No such element in tree";
             } else
