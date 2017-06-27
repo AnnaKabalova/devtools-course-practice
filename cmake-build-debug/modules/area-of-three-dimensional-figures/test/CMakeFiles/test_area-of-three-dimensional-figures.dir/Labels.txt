@@ -1,0 +1,10 @@
+# Target labels
+ area-of-three-dimensional-figures
+ Test
+# Source files and their labels
+/home/altmetal/с++ projects/devtools-course-practice-1/modules/area-of-three-dimensional-figures/test/test_calculator.cpp
+ area-of-three-dimensional-figures
+ Test
+/home/altmetal/с++ projects/devtools-course-practice-1/modules/area-of-three-dimensional-figures/test/test_main.cpp
+ area-of-three-dimensional-figures
+ Test

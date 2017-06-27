@@ -1,0 +1,28 @@
+# Target labels
+ color-spaces
+ Library
+# Source files and their labels
+/home/altmetal/с++ projects/devtools-course-practice-1/modules/color-spaces/src/hsb_hsv_space.cpp
+ color-spaces
+ Library
+/home/altmetal/с++ projects/devtools-course-practice-1/modules/color-spaces/src/lab_space.cpp
+ color-spaces
+ Library
+/home/altmetal/с++ projects/devtools-course-practice-1/modules/color-spaces/src/rgb_space.cpp
+ color-spaces
+ Library
+/home/altmetal/с++ projects/devtools-course-practice-1/modules/color-spaces/src/xyz_space.cpp
+ color-spaces
+ Library
+/home/altmetal/с++ projects/devtools-course-practice-1/modules/color-spaces/include/hsb_hsv_space.h
+ color-spaces
+ Library
+/home/altmetal/с++ projects/devtools-course-practice-1/modules/color-spaces/include/lab_space.h
+ color-spaces
+ Library
+/home/altmetal/с++ projects/devtools-course-practice-1/modules/color-spaces/include/rgb_space.h
+ color-spaces
+ Library
+/home/altmetal/с++ projects/devtools-course-practice-1/modules/color-spaces/include/xyz_space.h
+ color-spaces
+ Library

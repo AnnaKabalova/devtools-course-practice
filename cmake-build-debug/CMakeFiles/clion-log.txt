@@ -1,0 +1,29 @@
+/opt/clion-2017.1.3/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/home/altmetal/с++ projects/devtools-course-practice-1"
+-- 
+-- General configuration for DevTools
+-- ==================================
+-- 
+--    Compiler:      GNU
+--    Configuration: Debug
+--    Coverage:      OFF
+--    Detected modules:
+--     - Sort
+--     - area-of-three-dimensional-figures
+--     - arithmetic-parser
+--     - bit-array
+--     - color-spaces
+--     - complex-number
+--     - credit-calculator
+--     - fraction
+--     - huffman-algoritm
+--     - length_converter
+--     - line_plane_intersec
+--     - quadratic-equation
+--     - rom_arabic_numbers_converter
+--     - search-tree
+--     - stack
+--     - triangle
+-- 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/altmetal/с++ projects/devtools-course-practice-1/cmake-build-debug

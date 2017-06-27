@@ -1,0 +1,21 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/home/altmetal/с++ projects/devtools-course-practice-1/modules/triangle/src/triangle.cpp",
+			"labels" : [ "triangle", "Library" ]
+		},
+		
+		{
+			"file" : "/home/altmetal/с++ projects/devtools-course-practice-1/modules/triangle/include/triangle.h",
+			"labels" : [ "triangle", "Library" ]
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "triangle", "Library" ],
+		"name" : "lib_triangle"
+	}
+}

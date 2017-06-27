@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../lib/libquadratic-equation.a  CMakeFiles/lib_quadratic-equation.dir/quadratic_equation.cpp.o
+/usr/bin/ranlib ../../../lib/libquadratic-equation.a

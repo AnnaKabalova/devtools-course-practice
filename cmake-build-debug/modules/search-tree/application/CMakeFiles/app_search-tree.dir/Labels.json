@@ -1,0 +1,16 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/home/altmetal/с++ projects/devtools-course-practice-1/modules/search-tree/application/app_main.cxx",
+			"labels" : [ "search-tree", "Application" ]
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "search-tree", "Application" ],
+		"name" : "app_search-tree"
+	}
+}

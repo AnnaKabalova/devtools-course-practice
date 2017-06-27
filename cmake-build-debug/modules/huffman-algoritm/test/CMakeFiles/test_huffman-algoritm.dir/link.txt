@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11 -Wall -Werror -g   CMakeFiles/test_huffman-algoritm.dir/test_huffman_algoritm.cpp.o CMakeFiles/test_huffman-algoritm.dir/test_main.cpp.o  -o ../../../bin/test_huffman-algoritm -rdynamic ../../../lib/libgtest.a -lpthread ../../../lib/libgtest.a ../../../lib/libhuffman-algoritm.a ../../../lib/libgtest.a 

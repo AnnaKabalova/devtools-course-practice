@@ -1,0 +1,51 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/home/altmetal/с++ projects/devtools-course-practice-1/modules/color-spaces/src/hsb_hsv_space.cpp",
+			"labels" : [ "color-spaces", "Library" ]
+		},
+		
+		{
+			"file" : "/home/altmetal/с++ projects/devtools-course-practice-1/modules/color-spaces/src/lab_space.cpp",
+			"labels" : [ "color-spaces", "Library" ]
+		},
+		
+		{
+			"file" : "/home/altmetal/с++ projects/devtools-course-practice-1/modules/color-spaces/src/rgb_space.cpp",
+			"labels" : [ "color-spaces", "Library" ]
+		},
+		
+		{
+			"file" : "/home/altmetal/с++ projects/devtools-course-practice-1/modules/color-spaces/src/xyz_space.cpp",
+			"labels" : [ "color-spaces", "Library" ]
+		},
+		
+		{
+			"file" : "/home/altmetal/с++ projects/devtools-course-practice-1/modules/color-spaces/include/hsb_hsv_space.h",
+			"labels" : [ "color-spaces", "Library" ]
+		},
+		
+		{
+			"file" : "/home/altmetal/с++ projects/devtools-course-practice-1/modules/color-spaces/include/lab_space.h",
+			"labels" : [ "color-spaces", "Library" ]
+		},
+		
+		{
+			"file" : "/home/altmetal/с++ projects/devtools-course-practice-1/modules/color-spaces/include/rgb_space.h",
+			"labels" : [ "color-spaces", "Library" ]
+		},
+		
+		{
+			"file" : "/home/altmetal/с++ projects/devtools-course-practice-1/modules/color-spaces/include/xyz_space.h",
+			"labels" : [ "color-spaces", "Library" ]
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "color-spaces", "Library" ],
+		"name" : "lib_color-spaces"
+	}
+}

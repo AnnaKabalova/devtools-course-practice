@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../lib/libarea-of-three-dimensional-figures.a  CMakeFiles/lib_area-of-three-dimensional-figures.dir/calculator.cpp.o
+/usr/bin/ranlib ../../../lib/libarea-of-three-dimensional-figures.a

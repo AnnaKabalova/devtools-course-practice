@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../modules/area-of-three-dimensional-figures/./include/calculator.h
+cmath
+-
+string
+-
+
+/home/altmetal/с++ projects/devtools-course-practice-1/modules/area-of-three-dimensional-figures/src/calculator.cpp
+include/calculator.h
+/home/altmetal/с++ projects/devtools-course-practice-1/modules/area-of-three-dimensional-figures/src/include/calculator.h
+cmath
+-
+string
+-
+
