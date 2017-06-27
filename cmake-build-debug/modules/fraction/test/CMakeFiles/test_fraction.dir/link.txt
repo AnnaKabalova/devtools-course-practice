@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11 -Wall -Werror -g   CMakeFiles/test_fraction.dir/test_fraction.cpp.o CMakeFiles/test_fraction.dir/test_fraction_calculator.cpp.o CMakeFiles/test_fraction.dir/test_main.cpp.o  -o ../../../bin/test_fraction -rdynamic ../../../lib/libgtest.a -lpthread ../../../lib/libgtest.a ../../../lib/libfraction.a ../../../lib/libgtest.a 

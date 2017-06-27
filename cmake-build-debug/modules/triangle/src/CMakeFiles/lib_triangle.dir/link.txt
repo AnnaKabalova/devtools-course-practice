@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../lib/libtriangle.a  CMakeFiles/lib_triangle.dir/triangle.cpp.o
+/usr/bin/ranlib ../../../lib/libtriangle.a

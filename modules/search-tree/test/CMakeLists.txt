@@ -10,7 +10,7 @@ if(MSVC)
     add_definitions(/D _VARIADIC_MAX=10)
 endif()
 
-add_executable(${target} ${srcs} ${hdrs})
+add_executable(${target} ${srcs} ${hdrs} ../include/search-tree_app.h ../application/app_main.cpp)
 set_target_properties(${target} PROPERTIES
     LABELS "${MODULE};Test")
 

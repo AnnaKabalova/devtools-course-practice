@@ -1,0 +1,31 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/home/altmetal/с++ projects/devtools-course-practice-1/modules/search-tree/src/SearchTree.cxx",
+			"labels" : [ "search-tree", "Library" ]
+		},
+		
+		{
+			"file" : "/home/altmetal/с++ projects/devtools-course-practice-1/modules/search-tree/src/search-tree_app.cxx",
+			"labels" : [ "search-tree", "Library" ]
+		},
+		
+		{
+			"file" : "/home/altmetal/с++ projects/devtools-course-practice-1/modules/search-tree/include/SearchTree.h",
+			"labels" : [ "search-tree", "Library" ]
+		},
+		
+		{
+			"file" : "/home/altmetal/с++ projects/devtools-course-practice-1/modules/search-tree/include/search-tree_app.h",
+			"labels" : [ "search-tree", "Library" ]
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "search-tree", "Library" ],
+		"name" : "lib_search-tree"
+	}
+}

@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11 -Wall -Werror -g   CMakeFiles/test_triangle.dir/test_main.cpp.o CMakeFiles/test_triangle.dir/test_triangle.cpp.o  -o ../../../bin/test_triangle -rdynamic ../../../lib/libgtest.a -lpthread ../../../lib/libgtest.a ../../../lib/libtriangle.a ../../../lib/libgtest.a 

@@ -1,0 +1,21 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/home/altmetal/с++ projects/devtools-course-practice-1/modules/huffman-algoritm/src/huffman.cpp",
+			"labels" : [ "huffman-algoritm", "Library" ]
+		},
+		
+		{
+			"file" : "/home/altmetal/с++ projects/devtools-course-practice-1/modules/huffman-algoritm/include/huffman.h",
+			"labels" : [ "huffman-algoritm", "Library" ]
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "huffman-algoritm", "Library" ],
+		"name" : "lib_huffman-algoritm"
+	}
+}

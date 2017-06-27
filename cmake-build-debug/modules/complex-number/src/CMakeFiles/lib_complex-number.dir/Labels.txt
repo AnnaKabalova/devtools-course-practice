@@ -1,0 +1,16 @@
+# Target labels
+ complex-number
+ Library
+# Source files and their labels
+/home/altmetal/с++ projects/devtools-course-practice-1/modules/complex-number/src/complex_calculator.cpp
+ complex-number
+ Library
+/home/altmetal/с++ projects/devtools-course-practice-1/modules/complex-number/src/complex_number.cpp
+ complex-number
+ Library
+/home/altmetal/с++ projects/devtools-course-practice-1/modules/complex-number/include/complex_calculator.h
+ complex-number
+ Library
+/home/altmetal/с++ projects/devtools-course-practice-1/modules/complex-number/include/complex_number.h
+ complex-number
+ Library

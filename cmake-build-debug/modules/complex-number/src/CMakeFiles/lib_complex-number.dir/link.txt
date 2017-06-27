@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../lib/libcomplex-number.a  CMakeFiles/lib_complex-number.dir/complex_calculator.cpp.o CMakeFiles/lib_complex-number.dir/complex_number.cpp.o
+/usr/bin/ranlib ../../../lib/libcomplex-number.a

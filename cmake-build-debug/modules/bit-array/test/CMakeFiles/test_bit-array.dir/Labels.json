@@ -1,0 +1,21 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/home/altmetal/с++ projects/devtools-course-practice-1/modules/bit-array/test/test_grachev_vlad_bit_array.cpp",
+			"labels" : [ "bit-array", "Test" ]
+		},
+		
+		{
+			"file" : "/home/altmetal/с++ projects/devtools-course-practice-1/modules/bit-array/test/test_main.cpp",
+			"labels" : [ "bit-array", "Test" ]
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "bit-array", "Test" ],
+		"name" : "test_bit-array"
+	}
+}

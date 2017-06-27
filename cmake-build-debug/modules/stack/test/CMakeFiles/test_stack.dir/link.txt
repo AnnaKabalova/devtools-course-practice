@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11 -Wall -Werror -g   CMakeFiles/test_stack.dir/test_main.cpp.o CMakeFiles/test_stack.dir/test_stack.cpp.o  -o ../../../bin/test_stack -rdynamic ../../../lib/libgtest.a -lpthread ../../../lib/libgtest.a 

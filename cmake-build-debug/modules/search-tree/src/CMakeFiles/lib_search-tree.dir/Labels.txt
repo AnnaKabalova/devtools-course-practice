@@ -1,0 +1,16 @@
+# Target labels
+ search-tree
+ Library
+# Source files and their labels
+/home/altmetal/с++ projects/devtools-course-practice-1/modules/search-tree/src/SearchTree.cxx
+ search-tree
+ Library
+/home/altmetal/с++ projects/devtools-course-practice-1/modules/search-tree/src/search-tree_app.cxx
+ search-tree
+ Library
+/home/altmetal/с++ projects/devtools-course-practice-1/modules/search-tree/include/SearchTree.h
+ search-tree
+ Library
+/home/altmetal/с++ projects/devtools-course-practice-1/modules/search-tree/include/search-tree_app.h
+ search-tree
+ Library

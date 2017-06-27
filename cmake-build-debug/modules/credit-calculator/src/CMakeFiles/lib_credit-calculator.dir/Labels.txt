@@ -1,0 +1,10 @@
+# Target labels
+ credit-calculator
+ Library
+# Source files and their labels
+/home/altmetal/с++ projects/devtools-course-practice-1/modules/credit-calculator/src/credit_calculator.cpp
+ credit-calculator
+ Library
+/home/altmetal/с++ projects/devtools-course-practice-1/modules/credit-calculator/include/credit_calculator.h
+ credit-calculator
+ Library

@@ -1,0 +1,10 @@
+# Target labels
+ quadratic-equation
+ Library
+# Source files and their labels
+/home/altmetal/с++ projects/devtools-course-practice-1/modules/quadratic-equation/src/quadratic_equation.cpp
+ quadratic-equation
+ Library
+/home/altmetal/с++ projects/devtools-course-practice-1/modules/quadratic-equation/include/quadratic_equation.h
+ quadratic-equation
+ Library
