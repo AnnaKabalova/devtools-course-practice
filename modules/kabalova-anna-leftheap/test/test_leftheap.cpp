@@ -2,8 +2,6 @@
 
 #include <gtest/gtest.h>
 
-#include <string>
-
 #include "include/leftheap.h"
 
 TEST(LeftheapTest, Can_Create_Leftheap) {
@@ -12,63 +10,51 @@ TEST(LeftheapTest, Can_Create_Leftheap) {
 
 TEST(LeftheapTest, Can_Insert_Element_In_Empty_LeftHeap) {
     LeftHeap LHeap;
-    int key = 10;
 
-    ASSERT_NO_THROW(LHeap.Insert(key));
+    ASSERT_NO_THROW(LHeap.insert(10));
 }
 
-TEST(LeftheapTest, isEmpty_LeftHeap) {
+TEST(LeftheapTest, IsEmpty_LeftHeap) {
     LeftHeap LHeap;
 
-    EXPECT_EQ(true, LHeap.isEmpty());
+    EXPECT_TRUE(LHeap.isEmpty());
 }
 
-TEST(LeftheapTest, Leftheap_isnotFull_When_It_isEmpty) {
+TEST(LeftheapTest, IsNotEmpty_LeftHeap) {
     LeftHeap LHeap;
 
-    EXPECT_EQ(false, LHeap.isFull());
+    EXPECT_TRUE(LHeap.isEmpty());
 }
 
-TEST(LeftheapTest, isFull_LeftHeap) {
+
+TEST(LeftheapTest, IsFull_LeftHeap) {
     LeftHeap LHeap;
-    int x = 1;
-    int y = 2;
-    int z = 3;
-    LHeap.Insert(x);
-    LHeap.Insert(y);
-    LHeap.Insert(z);
-    EXPECT_EQ(true, LHeap.isFull());
+    const int x = 1;
+    const int y = 2;
+    const int z = 3;
+    LHeap.insert(x);
+    LHeap.insert(y);
+    LHeap.insert(z);
+    EXPECT_TRUE(LHeap.isFull());
 }
 
-TEST(LeftheapTest, Leftheap_isnotEmpty_When_It_isFull) {
+TEST(LeftheapTest, IsnotEmpty_When_It_isFull) {
     LeftHeap LHeap;
-    int x = 1;
-    int y = 2;
-    int z = 3;
-    LHeap.Insert(x);
-    LHeap.Insert(y);
-    LHeap.Insert(z);
-    EXPECT_EQ(false, LHeap.isEmpty());
-}
-
-TEST(LeftheapTest, makeEmpty_Leftheap) {
-    LeftHeap LHeap;
-    int x = 1;
-    int y = 2;
-    int z = 3;
-    LHeap.Insert(x);
-    LHeap.Insert(y);
-    LHeap.Insert(z);
-    LHeap.makeEmpty();
-    EXPECT_EQ(true, LHeap.isEmpty());
+    const int x = 1;
+    const int y = 2;
+    const int z = 3;
+    LHeap.insert(x);
+    LHeap.insert(y);
+    LHeap.insert(z);
+    EXPECT_FALSE(LHeap.isEmpty());
 }
 
 TEST(LeftheapTest, Can_Find_Min) {
     LeftHeap LHeap;
     int min = 1;
     int x = 2;
-    LHeap.Insert(x);
-    LHeap.Insert(min);
+    LHeap.insert(x);
+    LHeap.insert(min);
     EXPECT_EQ(min, LHeap.findMin());
 }
 
@@ -78,41 +64,40 @@ TEST(LeftheapTest, Can_Delete_Min) {
     int x = 2;
     int y = 3;
     int z = 4;
-    LHeap.Insert(x);
-    LHeap.Insert(y);
-    LHeap.Insert(z);
-    LHeap.Insert(min);
+    LHeap.insert(x);
+    LHeap.insert(y);
+    LHeap.insert(z);
+    LHeap.insert(min);
     LHeap.deleteMin();
     EXPECT_EQ(x, LHeap.findMin());
 }
 
-/*TEST(LeftheatTest, Can_Merge_Leftheap) {
+TEST(LeftheapTest, Can_Merge_Two_LeftHeap) {
     LeftHeap LHeap;
     LeftHeap LHeap1;
     LeftHeap LHeap2;
-    int x = 1;
-    int y = 2;
-    int z = 3;
-    int x1 = 4;
-    int y1 = 5;
-    int z1 = 6;
 
-    LHeap1.Insert(x);
-    LHeap1.Insert(y);
-    LHeap1.Insert(z);
+    LHeap.insert(1);
+    LHeap.insert(4);
 
-    LHeap2.Insert(x1);
-    LHeap2.Insert(y1);
-    LHeap2.Insert(z1);
+    LHeap1.insert(1);
+    LHeap2.insert(4);
 
-    LHeap.Insert(x);
-    LHeap.Insert(y);
-    LHeap.Insert(z);
-    LHeap.Insert(x1);
-    LHeap.Insert(y1);
-    LHeap.Insert(z1);
+    LHeap1.merge(&LHeap2);
 
-    LHeap1.Merge(LHeap2);
+    EXPECT_EQ(LHeap1, LHeap);
+}
 
-    EXPECT_EQ(LHeap, LHeap1);
-}*/
+TEST(LeftheapTest, Cant_Merge_Self) {
+    LeftHeap LHeap_res;
+
+    LHeap_res.insert(1);
+
+    LeftHeap LHeap_exp;
+    LHeap_exp.insert(1);
+
+    LHeap_res.merge(&LHeap_res);
+
+    EXPECT_EQ(LHeap_exp, LHeap_res);
+}
+

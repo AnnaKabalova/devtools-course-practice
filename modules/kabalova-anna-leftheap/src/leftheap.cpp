@@ -6,41 +6,38 @@
 #include <iostream>
 
 LeftHeap::LeftHeap() {
-    root = nullptr;
-}
-
-LeftHeap::LeftHeap(LeftHeap &h) {
-    root = nullptr;
-    *this = h;
+    _root = nullptr;
 }
 
 LeftHeap::~LeftHeap() {
-    makeEmpty();
+    while(!isEmpty()) {
+        deleteMin();
+    }
 }
 
-void LeftHeap::Merge(LeftHeap &rhs) {
-    if (this == &rhs)
-        return;
-    root = Merge(root, rhs.root);
-    rhs.root = NULL;
+void LeftHeap::merge(LeftHeap *rhs) {
+    if (this != rhs) {
+        _root = merge(_root, rhs->_root);
+        rhs->_root = nullptr;
+    }
 }
 
-Node* LeftHeap::Merge(Node *h1, Node *h2) {
-    if (h1 == NULL)
+Node* LeftHeap::merge(Node *h1, Node *h2) {
+    if (h1 == nullptr)
         return h2;
-    if (h2 == NULL)
+    if (h2 == nullptr)
         return h1;
     if (h1->getKey() < h2->getKey())
-        return Merge1(h1, h2);
+        return merge1(h1, h2);
     else
-        return Merge1(h2, h1);
+        return merge1(h2, h1);
 }
 
-Node* LeftHeap::Merge1(Node *h1, Node *h2) {
-    if (h1->getLeft() == NULL)
+Node* LeftHeap::merge1(Node *h1, Node *h2) {
+    if (h1->getLeft() == nullptr) {
         h1->setLeft(h2);
-    else {
-        h1->setRight(Merge(h1->getRight(), h2));
+    } else {
+        h1->setRight(merge(h1->getRight(), h2));
         if (h1->getLeft()->getRank() < h1->getRight()->getRank())
             swapChildren(h1);
         h1->setRank(h1->getRight()->getRank() + 1);
@@ -54,47 +51,42 @@ void LeftHeap::swapChildren(Node *t) {
     t->setRight(tmp);
 }
 
-void LeftHeap::Insert(int &x) {
-    root = Merge(new Node(x), root);
+void LeftHeap::insert(int x) {
+    _root = merge(new Node(x), _root);
 }
 
-int LeftHeap::findMin() {
-    return root->getKey();
+int LeftHeap::findMin() const {
+    return _root->getKey();
 }
 void LeftHeap::deleteMin() {
-    Node *oldRoot = root;
-    root = Merge(root->getLeft(), root->getRight());
+    if (isEmpty())
+        return;
+    Node *oldRoot = _root;
+    _root = merge(_root->getLeft(), _root->getRight());
     delete oldRoot;
 }
 
-void LeftHeap::deleteMin(int &minItem) {
-    if (isEmpty()) {
-        cout << "Heap is Empty" << endl;
-        return;
-    }
-    minItem = findMin();
-    deleteMin();
+bool LeftHeap::isEmpty() const {
+    return _root == nullptr;
 }
 
-bool LeftHeap::isEmpty() {
-    if (root==NULL)
-        return true;
-    return false;
+bool LeftHeap::isFull() const {
+    return  _root != nullptr;
 }
 
-bool LeftHeap::isFull() {
-    if (root == NULL)
-        return false;
-    return true;
+bool LeftHeap::operator== (const LeftHeap& lh) const {
+    return tree_compare(this->_root, lh._root);
 }
-void LeftHeap::makeEmpty() {
-    reclaimMemory(root);
-    root = NULL;
-}
-void LeftHeap::reclaimMemory(Node* t) {
-    if (t != NULL) {
-        reclaimMemory(t->getLeft());
-        reclaimMemory(t->getRight());
-        delete t;
+
+bool LeftHeap::tree_compare(Node *node1, Node *node2) const {
+    bool result = false;
+    if (node1 == nullptr && node2 == nullptr) {
+        result = true;
+    } else if (node1 == nullptr || node2 == nullptr) {
+        result = false;
+    } else if (node1->getKey() == node2->getKey()) {
+        result = (tree_compare(node1->getLeft(), node2->getLeft()) && tree_compare(node1->getRight(), node2->getRight())) ||
+            (tree_compare(node1->getLeft(), node2->getRight()) && tree_compare(node1->getRight(), node2->getLeft()));
     }
+    return result;
 }

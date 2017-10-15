@@ -10,6 +10,7 @@ class Node {
     Node* left;
     Node* right;
     Node* parent;
+
  public:
     Node();
     Node(int _key, Node *_left = nullptr, Node *_right = nullptr, int _rank = 0, Node *_parent = nullptr);

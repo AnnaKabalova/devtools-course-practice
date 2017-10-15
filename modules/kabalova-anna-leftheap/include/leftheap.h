@@ -9,27 +9,25 @@ using namespace std;
 
 class LeftHeap {
  public:
-    Node* root;
     LeftHeap();
-    LeftHeap(LeftHeap &h);
     ~LeftHeap();
 
-    void Merge(LeftHeap &rhs);
-    Node* Merge(Node *h1, Node *h2);
-    Node* Merge1(Node *h1, Node *h2);
+    void merge(LeftHeap *rhs);
 
     void swapChildren(Node *t);
-    void Insert(int &x);
-
-    int findMin();
+    void insert(int x);
     void deleteMin();
-    void deleteMin(int &minItem);
+    int findMin() const;
 
-    bool isEmpty();
-    bool isFull();
+    bool isEmpty() const;
+    bool isFull() const;
 
-    void makeEmpty();
-    void reclaimMemory(Node* t);
+    bool operator== (const LeftHeap& lh) const;
+ private:
+  Node* _root;
+  Node* merge(Node *h1, Node *h2);
+  Node* merge1(Node *h1, Node *h2);
+  bool tree_compare(Node *node1, Node *node2) const;
 };
 
 #endif  // MODULES_KABALOVA_ANNA_LEFTHEAP_INCLUDE_LEFTHEAP_H_

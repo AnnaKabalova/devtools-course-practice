@@ -5,7 +5,13 @@
 #include <string>
 
 #include "include/Node.h"
+TEST(NodeTest, Can_Create_Without_Parameters) {
+    Node* A = nullptr;
 
+    A = new Node();
+
+    EXPECT_NE(nullptr, A);
+}
 TEST(NodeTest, Can_Create_With_Key_Parent_Rank_And_Children) {
     int key = 10;
     int rank = 0;
