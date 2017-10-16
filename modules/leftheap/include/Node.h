@@ -1,7 +1,7 @@
 // Copyright 2017 Kabalova Anna
 
-#ifndef MODULES_KABALOVA_ANNA_LEFTHEAP_INCLUDE_NODE_H_
-#define MODULES_KABALOVA_ANNA_LEFTHEAP_INCLUDE_NODE_H_
+#ifndef MODULES_LEFTHEAP_INCLUDE_NODE_H_
+#define MODULES_LEFTHEAP_INCLUDE_NODE_H_
 
 class Node {
  private:
@@ -13,7 +13,8 @@ class Node {
 
  public:
     Node();
-    Node(int _key, Node *_left = nullptr, Node *_right = nullptr, int _rank = 0, Node *_parent = nullptr);
+    explicit Node(int _key, Node *_left = nullptr, Node *_right = nullptr,
+        int _rank = 0, Node *_parent = nullptr);
     ~Node();
 
     int getKey();
@@ -30,4 +31,4 @@ class Node {
     void setKey(int _key);
 };
 
-#endif  // MODULES_KABALOVA_ANNA_LEFTHEAP_INCLUDE_NODE_H_
+#endif  // MODULES_LEFTHEAP_INCLUDE_NODE_H_

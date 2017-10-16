@@ -1,11 +1,9 @@
 // Copyright 2017 Kabalova Anna
 
-#ifndef MODULES_KABALOVA_ANNA_LEFTHEAP_INCLUDE_LEFTHEAP_H_
-#define MODULES_KABALOVA_ANNA_LEFTHEAP_INCLUDE_LEFTHEAP_H_
+#ifndef MODULES_LEFTHEAP_INCLUDE_LEFTHEAP_H_
+#define MODULES_LEFTHEAP_INCLUDE_LEFTHEAP_H_
 
 #include "include/Node.h"
-
-using namespace std;
 
 class LeftHeap {
  public:
@@ -30,4 +28,4 @@ class LeftHeap {
   bool tree_compare(Node *node1, Node *node2) const;
 };
 
-#endif  // MODULES_KABALOVA_ANNA_LEFTHEAP_INCLUDE_LEFTHEAP_H_
+#endif  // MODULES_LEFTHEAP_INCLUDE_LEFTHEAP_H_
