@@ -113,7 +113,7 @@ TEST(LeftheapTest, Can_Compare_Trees1) {
     LHeap.insert(9);
     LHeap.insert(15);
 
-    ASSERT_NO_THROW(LHeap == LHeap1);
+    EXPECT_FALSE(LHeap == LHeap1);
 }
 
 TEST(LeftheapTest, Can_Compare_Trees2) {
@@ -134,7 +134,7 @@ TEST(LeftheapTest, Can_Compare_Trees2) {
     LHeap.insert(10);
     LHeap.insert(12);
 
-    ASSERT_NO_THROW(LHeap == LHeap1);
+    EXPECT_FALSE(LHeap == LHeap1);
 }
 
 TEST(LeftheapTest, Cant_Merge_Self) {
