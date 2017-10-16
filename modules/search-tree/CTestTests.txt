@@ -1,0 +1,82 @@
+#############################################
+##### Testing
+#############################################
+
+enable_testing()
+
+set(prefix "${MODULE}")
+
+add_test(
+    NAME ${prefix}_can_Run
+    COMMAND ${APPLICATION}
+)
+
+add_test(
+    NAME ${prefix}_can_Print_Help_Without_Arguments
+    COMMAND ${APPLICATION}
+)
+set_tests_properties (${prefix}_can_Print_Help_Without_Arguments
+  PROPERTIES PASS_REGULAR_EXPRESSION "This is search tree application")
+
+add_test(
+    NAME ${prefix}_Print_Help_Then_Incorrect_Number_of_Args
+    COMMAND ${APPLICATION} 2 MAX 5 6 7 8
+)
+set_tests_properties (${prefix}_Print_Help_Then_Incorrect_Number_of_Args
+  PROPERTIES PASS_REGULAR_EXPRESSION "This is search tree application")
+
+add_test(
+    NAME ${prefix}_Print_Error_Then_enter_Wrong_Act
+    COMMAND ${APPLICATION} 3 MIX 1 2 3 4
+)
+set_tests_properties (${prefix}_Print_Error_Then_enter_Wrong_Act
+  PROPERTIES PASS_REGULAR_EXPRESSION "Wrong act!")
+
+add_test(
+    NAME ${prefix}_Can_Find_Max
+    COMMAND ${APPLICATION} 3 MAX 1 2 3 4
+)
+set_tests_properties (${prefix}_Can_Find_Max
+  PROPERTIES PASS_REGULAR_EXPRESSION "The maximal element is 3")
+
+add_test(
+    NAME ${prefix}_Can_Find_Min
+    COMMAND ${APPLICATION} 3 MIN 1 2 3 4
+)
+set_tests_properties (${prefix}_Can_Find_Min
+  PROPERTIES PASS_REGULAR_EXPRESSION "The minimal element is 1")
+
+add_test(
+    NAME ${prefix}_Can_Find_Element
+    COMMAND ${APPLICATION} 3 FIND 1 2 3 3
+)
+set_tests_properties (${prefix}_Can_Find_Element
+  PROPERTIES PASS_REGULAR_EXPRESSION "The searched element found!")
+
+add_test(
+    NAME ${prefix}_Print_Error_If_Element_Not_In_Tree
+    COMMAND ${APPLICATION} 3 FIND 1 2 3 4
+)
+set_tests_properties (${prefix}_Print_Error_If_Element_Not_In_Tree
+  PROPERTIES PASS_REGULAR_EXPRESSION "No such element in tree")
+
+add_test(
+    NAME ${prefix}_Can_Find_Min_With_Negative_Values
+    COMMAND ${APPLICATION} 3 MIN -1 2 3 4
+)
+set_tests_properties (${prefix}_Can_Find_Min_With_Negative_Values
+  PROPERTIES PASS_REGULAR_EXPRESSION "The minimal element is -1")
+
+add_test(
+    NAME ${prefix}_Can_Find_Max_In_Negative_Values
+    COMMAND ${APPLICATION} 3 MAX -1 -2 -3 4
+)
+set_tests_properties (${prefix}_Can_Find_Max_In_Negative_Values
+  PROPERTIES PASS_REGULAR_EXPRESSION "The maximal element is -1")
+
+add_test(
+    NAME ${prefix}_Print_Error_If_Tree_Is_Empty
+    COMMAND ${APPLICATION} 0 MIN 4
+)
+set_tests_properties (${prefix}_Print_Error_If_Tree_Is_Empty
+  PROPERTIES PASS_REGULAR_EXPRESSION "Tree is empty")
