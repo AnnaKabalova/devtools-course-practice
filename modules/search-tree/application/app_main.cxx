@@ -1,7 +1,8 @@
 // Copyright 2017 Kabalova Anna
 
-#include "../include/search-tree_app.h"
 #include <string>
+
+#include "../include/search-tree_app.h"
 
 int main(int argc, const char** argv) {
   SearchTreeApplication app;
