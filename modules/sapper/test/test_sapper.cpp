@@ -114,7 +114,7 @@ TEST(Saper, Can_touch_and_win) {
     ASSERT_EQ("You win!\n", output_);
 }
 
-TEST(Saper, DISABLE_Can_touch_and_not_lose) {
+TEST(Saper, DISABLED_Can_touch_and_not_lose) {
     std::string output_;
     Saper app_(9, 9, 4);
     std::vector<const char*> args_ = { "appname", "0", "0", "1" };
