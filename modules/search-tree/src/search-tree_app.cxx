@@ -1,6 +1,7 @@
 // Copyright 2017 Kabalova Anna
 
 #include <include/search-tree_app.h>
+#include <string>
 
 SearchTreeApplication::SearchTreeApplication(): _message("") {}
 
@@ -34,8 +35,7 @@ std::string SearchTreeApplication::operator()(int argc, const char **argv) {
 
   if (tree->IsEmpty())
     _message = "Tree is empty";
-  else {
-    if (arg._act == "MIN") {
+  else if (arg._act == "MIN") {
       node = tree->FindMin();
       _message = "The minimal element is " + std::to_string(node->key);
     } else if (arg._act == "MAX") {
@@ -43,21 +43,21 @@ std::string SearchTreeApplication::operator()(int argc, const char **argv) {
       _message = "The maximal element is " + std::to_string(node->key);
     } else if (arg._act == "FIND") {
       node = tree->Search(arg._search_elem);
-      if (node != (Node *) 0) {
+      if (node != nullptr) {
         _message = "The searched element found!";}
       else
         _message = "No such element in tree";
     } else
       _message = "Wrong act!";
-  }
   return _message;
 }
 
-bool SearchTreeApplication::validateNumberOfArguments(int argc, const char **argv) {
+bool SearchTreeApplication::validateNumberOfArguments(int argc,
+    const char **argv) {
   if (argc == 1) {
     help(argv[0]);
     return false;
-  } else { if (atoi(argv[2])|| argc!=(atoi(argv[1])+4)) {
+  } else { if (atoi(argv[2])|| argc != (atoi(argv[1])+4)) {
       help(argv[0], "ERROR: wrong arguments");
       return false;
     }
