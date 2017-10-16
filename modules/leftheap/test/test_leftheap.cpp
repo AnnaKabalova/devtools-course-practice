@@ -88,6 +88,55 @@ TEST(LeftheapTest, Can_Merge_Two_LeftHeap) {
     EXPECT_EQ(LHeap1, LHeap);
 }
 
+TEST(LeftheapTest, Can_Merge_LeftHeapWithSwap) {
+    LeftHeap LHeap;
+    LeftHeap LHeap1;
+
+    LHeap.insert(6);
+    LHeap.insert(9);
+    LHeap.insert(15);
+
+    LHeap1.insert(3);
+    LHeap1.insert(5);
+    LHeap1.insert(7);
+    LHeap1.insert(8);
+    LHeap1.insert(10);
+
+    ASSERT_NO_THROW(LHeap.merge(&LHeap1));
+}
+
+TEST(LeftheapTest, Can_Compare_Trees1) {
+    LeftHeap LHeap;
+    LeftHeap LHeap1;
+
+    LHeap.insert(6);
+    LHeap.insert(9);
+    LHeap.insert(15);
+
+    ASSERT_NO_THROW(LHeap == LHeap1);
+}
+
+TEST(LeftheapTest, Can_Compare_Trees2) {
+    LeftHeap LHeap;
+    LeftHeap LHeap1;
+
+    LHeap.insert(2);
+    LHeap.insert(3);
+    LHeap.insert(5);
+    LHeap.insert(8);
+    LHeap.insert(9);
+    LHeap.insert(13);
+
+    LHeap.insert(1);
+    LHeap.insert(6);
+    LHeap.insert(7);
+    LHeap.insert(4);
+    LHeap.insert(10);
+    LHeap.insert(12);
+
+    ASSERT_NO_THROW(LHeap == LHeap1);
+}
+
 TEST(LeftheapTest, Cant_Merge_Self) {
     LeftHeap LHeap_res;
 
