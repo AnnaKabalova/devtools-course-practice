@@ -33,9 +33,9 @@ std::string SearchTreeApplication::operator()(int argc, const char **argv) {
   for (int i = 3; i < argc - 1; i++)
     tree->Insert(atoi(argv[i]));
 
-  if (tree->IsEmpty())
-    _message = "Tree is empty";
-  else if (arg._act == "MIN") {
+  if (tree->IsEmpty()) {
+      _message = "Tree is empty";
+  } else if (arg._act == "MIN") {
       node = tree->FindMin();
       _message = "The minimal element is " + std::to_string(node->key);
     } else if (arg._act == "MAX") {
@@ -45,8 +45,9 @@ std::string SearchTreeApplication::operator()(int argc, const char **argv) {
       node = tree->Search(arg._search_elem);
       if (node != nullptr) {
           _message = "The searched element found!";
-      } else
-        _message = "No such element in tree";
+      } else {
+          _message = "No such element in tree";
+      }
     } else {
         _message = "Wrong act!";
     }
