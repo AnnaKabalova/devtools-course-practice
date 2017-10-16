@@ -1,7 +1,7 @@
 // Copyright 2017 Kabalova Anna
 
-#ifndef DEVTOOLS_SEARCH_TREE_APP_H
-#define DEVTOOLS_SEARCH_TREE_APP_H
+#ifndef MODULES_SEARCH_TREE_INCLUDE_SEARCH_TREE_APP_H_
+#define MODULES_SEARCH_TREE_INCLUDE_SEARCH_TREE_APP_H_
 
 #include <string>
 #include <vector>
@@ -22,4 +22,4 @@ class SearchTreeApplication {
   } Arguments;
 };
 
-#endif //DEVTOOLS_SEARCH_TREE_APP_H
+#endif  // MODULES_SEARCH_TREE_INCLUDE_SEARCH_TREE_APP_H_
