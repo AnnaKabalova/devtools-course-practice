@@ -4,8 +4,6 @@
 
 #include <iostream>
 
-using namespace std;
-
 Node::Node() {
     key = 0;
     rank = 0;

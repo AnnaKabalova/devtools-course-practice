@@ -10,7 +10,7 @@ LeftHeap::LeftHeap() {
 }
 
 LeftHeap::~LeftHeap() {
-    while(!isEmpty()) {
+    while (!isEmpty()) {
         deleteMin();
     }
 }
@@ -85,8 +85,10 @@ bool LeftHeap::tree_compare(Node *node1, Node *node2) const {
     } else if (node1 == nullptr || node2 == nullptr) {
         result = false;
     } else if (node1->getKey() == node2->getKey()) {
-        result = (tree_compare(node1->getLeft(), node2->getLeft()) && tree_compare(node1->getRight(), node2->getRight())) ||
-            (tree_compare(node1->getLeft(), node2->getRight()) && tree_compare(node1->getRight(), node2->getLeft()));
+        result = (tree_compare(node1->getLeft(), node2->getLeft()) &&
+            tree_compare(node1->getRight(), node2->getRight())) ||
+            (tree_compare(node1->getLeft(), node2->getRight()) &&
+                tree_compare(node1->getRight(), node2->getLeft()));
     }
     return result;
 }
