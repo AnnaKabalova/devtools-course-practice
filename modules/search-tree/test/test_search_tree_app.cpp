@@ -1,17 +1,17 @@
+// Copyright 2017 Kabalova Anna
+
 #include <gtest/gtest.h>
 
 #include "../include/search-tree_app.h"
 
 using ::testing::internal::RE;
-using std::vector;
-using std::string;
 
 class SearchTreeApplication_Test : public ::testing::Test {
  protected:
-  void Act(const vector<string>& args_) {
-    vector<const char*> options;
+  void Act(const std::vector<std::string>& args_) {
+      std::vector<const char*> options;
 
-    options.push_back("appname");
+      options.push_back("appname");
     for (size_t i = 0; i < args_.size(); ++i) {
       options.push_back(args_[i].c_str());
     }
@@ -21,16 +21,16 @@ class SearchTreeApplication_Test : public ::testing::Test {
 
     output_ = app_(argc, argv);
   }
-  void Assert(const string& expected) {
+  void Assert(const std::string& expected) {
     EXPECT_TRUE(RE::PartialMatch(output_, RE(expected)));
   }
  private:
   SearchTreeApplication app_;
-  string output_;
+  std::string output_;
 };
 
 TEST_F(SearchTreeApplication_Test, Print_Help_Without_Arguments) {
-  const vector<string> args = {};
+  const std::vector<std::string> args = {};
 
   Act(args);
 
@@ -38,7 +38,7 @@ TEST_F(SearchTreeApplication_Test, Print_Help_Without_Arguments) {
 }
 
 TEST_F(SearchTreeApplication_Test, Print_Help_Then_Incorrect_Number_of_Args) {
-  vector<string> args = { "5",
+    std::vector<std::string> args = { "5",
                           "MIN",
                           "1", "2", "3",
                           "4", "5", "6",
@@ -50,7 +50,7 @@ TEST_F(SearchTreeApplication_Test, Print_Help_Then_Incorrect_Number_of_Args) {
 }
 
 TEST_F(SearchTreeApplication_Test, Print_Error_Then_enter_Wrong_Act) {
-  vector<string> args = { "3",
+    std::vector<std::string> args = { "3",
                           "MIX",
                           "1", "2", "3",
                           "4"};
@@ -61,7 +61,7 @@ TEST_F(SearchTreeApplication_Test, Print_Error_Then_enter_Wrong_Act) {
 }
 
 TEST_F(SearchTreeApplication_Test, Can_Find_Min) {
-  vector<string> args = { "3",
+    std::vector<std::string> args = { "3",
                           "MIN",
                           "1", "2", "3",
                           "4"};
@@ -72,7 +72,7 @@ TEST_F(SearchTreeApplication_Test, Can_Find_Min) {
 }
 
 TEST_F(SearchTreeApplication_Test, Can_Find_Max) {
-  vector<string> args = { "3",
+    std::vector<std::string> args = { "3",
                           "MAX",
                           "1", "2", "3",
                           "4"};
@@ -83,7 +83,7 @@ TEST_F(SearchTreeApplication_Test, Can_Find_Max) {
 }
 
 TEST_F(SearchTreeApplication_Test, Can_Find_Elem) {
-  vector<string> args = { "3",
+    std::vector<std::string> args = { "3",
                           "FIND",
                           "1", "2", "3",
                           "2" };
@@ -94,7 +94,7 @@ TEST_F(SearchTreeApplication_Test, Can_Find_Elem) {
 }
 
 TEST_F(SearchTreeApplication_Test, Print_Error_If_Element_Not_In_Tree) {
-  vector<string> args = { "3",
+    std::vector<std::string> args = { "3",
                           "FIND",
                           "1", "2", "3",
                           "4" };
@@ -106,7 +106,7 @@ TEST_F(SearchTreeApplication_Test, Print_Error_If_Element_Not_In_Tree) {
 
 
 TEST_F(SearchTreeApplication_Test, Can_Find_Min_With_Negative_Values) {
-  vector<string> args = { "3",
+    std::vector<std::string> args = { "3",
                           "MIN",
                           "-1", "2", "3",
                           "4"};
@@ -117,7 +117,7 @@ TEST_F(SearchTreeApplication_Test, Can_Find_Min_With_Negative_Values) {
 }
 
 TEST_F(SearchTreeApplication_Test, Can_Find_Max_In_Negative_Values) {
-  vector<string> args = { "3",
+    std::vector<std::string> args = { "3",
                           "MAX",
                           "-1", "-2", "-3",
                           "-4"};
@@ -128,7 +128,7 @@ TEST_F(SearchTreeApplication_Test, Can_Find_Max_In_Negative_Values) {
 }
 
 TEST_F(SearchTreeApplication_Test, Print_Error_If_Tree_Is_Empty) {
-  vector<string> args = { "0",
+    std::vector<std::string> args = { "0",
                           "MAX",
                           "-4"};
 
