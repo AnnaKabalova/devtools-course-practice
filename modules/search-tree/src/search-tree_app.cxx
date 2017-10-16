@@ -1,6 +1,7 @@
 // Copyright 2017 Kabalova Anna
 
 #include <include/search-tree_app.h>
+#include <stdlib.h>
 #include <string>
 
 SearchTreeApplication::SearchTreeApplication(): _message("") {}
