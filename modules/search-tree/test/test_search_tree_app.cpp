@@ -2,6 +2,9 @@
 
 #include <gtest/gtest.h>
 
+#include <vector>
+#include <string>
+
 #include "../include/search-tree_app.h"
 
 using ::testing::internal::RE;
