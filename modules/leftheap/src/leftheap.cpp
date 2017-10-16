@@ -86,9 +86,7 @@ bool LeftHeap::tree_compare(Node *node1, Node *node2) const {
         result = false;
     } else if (node1->getKey() == node2->getKey()) {
         result = (tree_compare(node1->getLeft(), node2->getLeft()) &&
-            tree_compare(node1->getRight(), node2->getRight())) ||
-            (tree_compare(node1->getLeft(), node2->getRight()) &&
-                tree_compare(node1->getRight(), node2->getLeft()));
+            tree_compare(node1->getRight(), node2->getRight()));
     }
     return result;
 }
